@@ -6,10 +6,18 @@ const oracledb = require("oracledb"); // Pour la BDD sécurisée des IBANs
 const crypto = require("crypto");
 const fs = require("fs");
 
-// Configuration (À sécuriser via variables d'environnement)
+// Configuration (À sécuriser via variables d'environnement en production)
 const RPC_URL = "http://127.0.0.1:8545"; // Nœud local ou Infura/Alchemy
 const CONTRACT_ADDRESS = "0xTON_CONTRAT_TVA_RIB_SYNCHRONIZER";
-const PRIVATE_KEY_RSA = fs.readFileSync("keys/bank_private_key.pem", "utf8");
+
+// Chargement sécurisé de la clé RSA avec un Fallback pour le mode Développement
+let PRIVATE_KEY_RSA;
+try {
+    PRIVATE_KEY_RSA = fs.readFileSync("keys/bank_private_key.pem", "utf8");
+} catch (error) {
+    console.warn("⚠️ [DEV] Fichier keys/bank_private_key.pem introuvable. Le pont EBICS tournera en mode Simulation.");
+    PRIVATE_KEY_RSA = null;
+}
 
 // ABI simplifié pour écouter l'événement
 const ABI = [
@@ -124,8 +132,13 @@ class FiatBridgeOracle {
     }
 
     signXMLWithRSA(xmlString) {
-        // La banque (EBICS) exige souvent une signature de l'empreinte du fichier
-        // Création d'un hash SHA-256 du XML, puis signature avec la clé privée RSA
+        // Mode Simulation si la clé est absente
+        if (!PRIVATE_KEY_RSA) {
+            console.log(`🔐 [SIMULATION] Signature RSA générée (Mode Test sans clé PEM).`);
+            return "SIGNATURE_MOCK_BASE64_DEV_MODE";
+        }
+
+        // Mode Production réel
         const sign = crypto.createSign('RSA-SHA256');
         sign.update(xmlString);
         sign.end();
@@ -140,17 +153,19 @@ class FiatBridgeOracle {
     }
 
     async transmitToBank(xml, signature, txHash) {
-        // C'est ici que tu intègres le protocole bancaire (ex: Client EBICS)
-        // Les banques européennes utilisent EBICS pour recevoir ces flux.
         console.log(`🏦 TRANSMISSION EBICS SIMULÉE: Ordre de ${txHash} envoyé à la banque.`);
         
+        // Sécurité : Créer le dossier s'il n'existe pas pour éviter une autre erreur ENOENT
+        const dir = './archives_sepa';
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+
         // Enregistrement de l'archive pour l'audit
-        fs.writeFileSync(`./archives_sepa/SEPA_${txHash}.xml`, xml);
-        fs.writeFileSync(`./archives_sepa/SEPA_${txHash}.sig`, signature);
+        fs.writeFileSync(`${dir}/SEPA_${txHash}.xml`, xml);
+        fs.writeFileSync(`${dir}/SEPA_${txHash}.sig`, signature);
     }
 }
 
-// Lancement de l'Oracle
-const oracle = new FiatBridgeOracle();
-oracle.start();
+// Export pour le serveur global
 module.exports = FiatBridgeOracle;
