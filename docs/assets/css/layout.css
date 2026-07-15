@@ -1,0 +1,133 @@
+/**
+ * @file layout.css
+ * @description Architecture structurelle (Grilles, Flexbox, Utilitaires W3C)
+ * @context Hub Aky & Rakai
+ */
+
+/* ==========================================================================
+   1. RESET & NORMES DE BASE W3C
+   ========================================================================== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    /* On verrouille le scroll global, seuls les tiroirs et le canvas scrolleront */
+    overflow: hidden; 
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   2. CONNEXION AUX VARIABLES (Couleurs & Typographie)
+   ========================================================================== */
+.bg-base { background-color: var(--color-bg-base); }
+.bg-surface { background-color: var(--color-bg-surface); }
+
+.text-main { color: var(--color-text-main); }
+.text-muted { color: var(--color-text-muted); }
+
+.font-ui { font-family: var(--font-ui); }
+.font-mono { font-family: var(--font-mono); }
+.small-text { font-size: 0.8rem; }
+
+/* ==========================================================================
+   3. ARCHITECTURE GLOBALE HUD (Heads-Up Display)
+   ========================================================================== */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Le Workspace occupe tout l'espace disponible entre le header et le footer */
+.workspace {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Tiroirs latéraux (Menu Médias & Terminal) */
+.left-drawer, .right-drawer {
+    width: 320px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+/* Zone Centrale de travail (Le dashboard principal) */
+.l-canvas {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* ==========================================================================
+   4. SYSTÈME FLEXBOX UTILITAIRE
+   ========================================================================== */
+.flex-row { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.flex-col { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.justify-between { 
+    justify-content: space-between; 
+}
+
+.gap-sm { gap: var(--space-sm); }
+.gap-md { gap: var(--space-md); }
+
+/* ==========================================================================
+   5. SYSTÈME D'ESPACEMENT MODULAIRE (Marges et Paddings)
+   ========================================================================== */
+.p-sm { padding: var(--space-sm); }
+.p-md { padding: var(--space-md); }
+.p-xl { padding: var(--space-xl); }
+
+.pb-sm { padding-bottom: var(--space-sm); }
+
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+
+.mt-sm { margin-top: var(--space-sm); }
+
+/* ==========================================================================
+   6. BORDURES ET EFFETS DE SURFACE
+   ========================================================================== */
+.border-standard { border: 1px solid var(--color-border); }
+.border-bottom { border-bottom: 1px solid var(--color-border); }
+.border-top { border-top: 1px solid var(--color-border); }
+.border-left { border-left: 1px solid var(--color-border); }
+.border-right { border-right: 1px solid var(--color-border); }
+.border-cyan { border: 1px solid var(--color-accent-cyan); }
+
+.radius-sm { border-radius: var(--radius-sm); }
+.radius-md { border-radius: var(--radius-md); }
+
+/* Application du filtre de flou pour les tiroirs */
+.blur-bg { 
+    backdrop-filter: var(--blur-overlay); 
+    -webkit-backdrop-filter: var(--blur-overlay); 
+    /* Ajout d'une légère transparence au fond pour que le flou agisse */
+    background-color: rgba(18, 22, 32, 0.85); 
+}
+
+.overflow-y { overflow-y: auto; }

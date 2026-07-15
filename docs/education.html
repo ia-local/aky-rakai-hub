@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Composant Grille Spécifique pour les exercices */
+        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        /* Style pour le dictionnaire */
+        .lexicon-list { display: grid; grid-template-columns: 1fr; gap: var(--space-sm); }
+        @media (min-width: 768px) { .lexicon-list { grid-template-columns: 1fr 1fr; } }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        <header class="hud-header bg-surface border-bottom p-md">
+            <div class="logo-zone">
+                <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+            </div>
+        </header>
+
+        <nav class="hud-nav border-bottom" aria-label="Navigation Principale">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB CENTRAL</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] L'HISTOIRE</a></li>
+                <li><a href="education.html" class="active highlight-cyan" aria-current="page">[03] ÉDUCATION (10 Étapes)</a></li>
+                <li><a href="defi28.html" class="text-muted">[04] DÉFI 28 JOURS</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            <main class="l-canvas p-xl" style="width:100%;">
+                
+                <!-- SECTION 1 : MATRICE DES EXERCICES -->
+                <header class="mb-lg">
+                    <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                    <p class="text-muted">Tableau de suivi comportemental pour l'éducatrice canine.</p>
+                </header>
+
+                <div class="grid-10 mb-xl">
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">01. La Réponse au Nom</h3>
+                        <p class="small-text text-muted mb-sm">Focus immédiat même en présence de Rakai.</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-cyan radius-sm" style="width: 50%; height: 6px;"></div>
+                        </div>
+                        <span class="small-text highlight-cyan font-mono">50% - Réagit à son nom</span>
+                    </div>
+
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">02. Apprentissage Propreté</h3>
+                        <p class="small-text text-muted mb-sm">Suivi des sorties régulières.</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-cyan radius-sm" style="width: 60%; height: 6px;"></div>
+                        </div>
+                        <span class="small-text highlight-cyan font-mono">60% - Association du lieu/mot</span>
+                    </div>
+
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">03. Le "Assis"</h3>
+                        <p class="small-text text-muted mb-sm">Ordre de contrôle de base.</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 6px;"></div>
+                        </div>
+                        <span class="small-text highlight-cyan font-mono">10% - Découverte</span>
+                    </div>
+
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">08. Cohabitation Pacifique</h3>
+                        <p class="small-text text-muted mb-sm">Gestion de l'énergie avec Rakai.</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-cyan radius-sm" style="width: 80%; height: 6px;"></div>
+                        </div>
+                        <span class="small-text highlight-green font-mono">80% - Très Bon (Promenades partagées)</span>
+                    </div>
+                </div>
+
+                <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header border-bottom pb-sm mb-md">
+                        <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+                        <p class="small-text text-muted">Mots associés et compris par Aky.</p>
+                    </header>
+                    
+                    <div class="lexicon-list">
+                        <!-- Mot 1 -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div>
+                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"AKY"</span>
+                                <p class="small-text text-muted m-0">Identification de soi</p>
+                            </div>
+                            <span class="highlight-green font-mono">ACQUIS</span>
+                        </div>
+
+                        <!-- Mot 2 -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div>
+                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"TOILETTE"</span>
+                                <p class="small-text text-muted m-0">Besoins à l'extérieur</p>
+                            </div>
+                            <span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+
+                        <!-- Mot 3 -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+                            <div>
+                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"AU PIED"</span>
+                                <p class="small-text text-muted m-0">Rappel de proximité</p>
+                            </div>
+                            <span class="highlight-orange font-mono">À L'ÉTUDE</span>
+                        </div>
+
+                        <!-- Mot 4 : Le membre de la meute -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div>
+                                <span class="font-mono highlight-orange" style="font-size: 1.1rem;">"RAKAI"</span>
+                                <p class="small-text text-muted m-0">Identification du félin de la meute</p>
+                            </div>
+                            <span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        <!-- Mot 5 : Le jouet -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div>
+                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BALLE"</span>
+                                <p class="small-text text-muted m-0">Objet ludique / Récompense</p>
+                            </div>
+                            <span class="highlight-cyan font-mono">DÉCOUVERTE</span>
+                        </div>
+
+                        <!-- Mot 6 : L'activité commune -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div>
+                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"PROMENADE"</span>
+                                <p class="small-text text-muted m-0">Sortie extérieure partagée avec Rakai</p>
+                            </div>
+                            <span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+</body>
+</html>

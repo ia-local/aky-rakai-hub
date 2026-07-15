@@ -1,0 +1,76 @@
+/**
+ * @file variables.css
+ * @description Racine des variables CSS pour le Hub Aky & Rakai
+ * @theme HUD Resolve (Technique, Sombre, Immersif)
+ */
+
+:root {
+    /* ==========================================================================
+       1. PALETTE DE COULEURS FONDAMENTALES (Mode Sombre Technique)
+       ========================================================================== */
+    --color-bg-base: #090a0f;      /* Noir profond technique pour l'arrière-plan */
+    --color-bg-surface: #121620;   /* Gris anthracite sombre (Tiroirs, Cartes) */
+    --color-border: #1e2530;       /* Bordures nettes pour délimiter l'espace */
+
+    /* ==========================================================================
+       2. ACCENTS THÉMATIQUES & ÉNERGÉTIQUES
+       ========================================================================== */
+    --color-accent-cyan: #00f0ff;  /* Le "Ki" d'Aky : Énergie, Éléments actifs, Liens */
+    --color-accent-orange: #ffb703;/* "Rakai" : Alertes, Terminal, Statuts système */
+    --color-accent-green: #22c55e; /* Validation, Objectifs atteints */
+    --color-accent-red: #ef4444;   /* Erreur, Alertes critiques */
+
+    /* ==========================================================================
+       3. TYPOGRAPHIE ET COULEURS DE TEXTE
+       ========================================================================== */
+    --color-text-main: #e2e8f0;    /* Blanc cassé pour un contraste optimal sans éblouir */
+    --color-text-muted: #94a3b8;   /* Gris clair pour les données secondaires et sous-titres */
+    
+    /* Polices : Sémantique W3C et lisibilité technique */
+    --font-ui: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+
+    /* ==========================================================================
+       4. ESPACEMENTS (Système modulaire base 8px)
+       ========================================================================== */
+    --space-xs: 0.25rem;  /* 4px */
+    --space-sm: 0.5rem;   /* 8px */
+    --space-md: 1rem;     /* 16px */
+    --space-lg: 1.5rem;   /* 24px */
+    --space-xl: 2rem;     /* 32px */
+
+    /* ==========================================================================
+       5. EFFETS VISUELS, OMBRES ET TRANSITIONS
+       ========================================================================== */
+    --radius-sm: 4px;     /* Légers arrondis pour un aspect technique moderne */
+    --radius-md: 8px;
+
+    /* Flou d'arrière-plan pour les tiroirs latéraux */
+    --blur-overlay: blur(12px);
+    
+    /* Lueurs internes (Glow effects) pour les états actifs */
+    --shadow-cyan: 0 0 10px rgba(0, 240, 255, 0.2);
+    --shadow-orange: 0 0 10px rgba(255, 183, 3, 0.2);
+
+    /* Moteur d'inertie physique pour l'UI */
+    --transition-fast: 0.15s ease-in-out;
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==========================================================================
+   CLASSES UTILITAIRES GLOBALES (Liées aux variables)
+   ========================================================================== */
+.highlight-cyan {
+    color: var(--color-accent-cyan);
+    text-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+}
+
+.highlight-orange {
+    color: var(--color-accent-orange);
+    text-shadow: 0 0 8px rgba(255, 183, 3, 0.4);
+}
+
+.bg-cyan {
+    background-color: var(--color-accent-cyan);
+    box-shadow: var(--shadow-cyan);
+}

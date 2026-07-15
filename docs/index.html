@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Aky & Rakai | CVNU Dashboard</title>
+    
+    <!-- Méta-données Sémantiques W3C -->
+    <meta name="description" content="Tableau de bord de suivi éducatif d'Aky et de cohabitation avec Rakai. Propulsé par CVNU Core.">
+    <meta name="author" content="Architecte Souverain">
+
+    <!-- Feuilles de style modulaires -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+
+    <!-- Typographie -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<!-- Injection des variables globales via les classes utilitaires -->
+<body class="hud-theme-dark bg-base text-main font-ui">
+
+    <div class="app-container">
+        
+        <!-- HEADER : Identité et Statut Global -->
+        <header class="hud-header bg-surface border-bottom p-md">
+            <div class="logo-zone">
+                <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                <span class="subtitle text-muted">Hack-Ki & MPD218 Interface</span>
+            </div>
+            <div class="system-status font-mono">
+                <span class="status-indicator online bg-cyan"></span>
+                <span class="status-text">CORE_SYSTEM : ONLINE (Bavent)</span>
+                <span class="date-display text-muted" id="sys-date"></span>
+            </div>
+        </header>
+
+        <!-- NAVIGATION PRINCIPALE -->
+        <nav class="hud-nav border-bottom" aria-label="Navigation Principale">
+            <ul class="flex-row">
+                <li><a href="index.html" class="active highlight-cyan" aria-current="page">[01] HUB CENTRAL</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] L'HISTOIRE</a></li>
+                <li><a href="education.html" class="text-muted">[03] ÉDUCATION (10 Étapes)</a></li>
+                <li><a href="defi28.html" class="text-muted">[04] DÉFI 28 JOURS</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            
+            <!-- ASIDE GAUCHE : Médias et Paramètres Biométriques -->
+            <aside class="left-drawer bg-surface border-right p-md blur-bg" id="media-drawer">
+                <div class="drawer-header border-bottom pb-sm mb-md">
+                    <h2 class="font-mono text-muted">GALERIE & BIOMÉTRIE</h2>
+                </div>
+                <div class="drawer-content flex-col gap-md">
+                    
+                    <!-- Carte d'Aky -->
+                    <div class="card pet-card border-standard p-sm radius-md">
+                        <h3>Aky (Chiot)</h3>
+                        <p class="font-mono">Niveau : <span id="aky-level" class="highlight-cyan">1</span></p>
+                        <div class="progress-bar-container radius-sm bg-base mt-sm mb-sm">
+                            <div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 8px;"></div>
+                        </div>
+                        <p class="small-text text-muted">Apprentissage en cours</p>
+                    </div>
+
+                    <!-- Carte de Rakai -->
+                    <div class="card pet-card border-standard p-sm radius-md">
+                        <h3>Rakai (Chat)</h3>
+                        <p class="font-mono">Statut : <span class="highlight-orange">Observateur</span></p>
+                        <p class="small-text text-muted">Interface MPD218 Connectée</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- MAIN : Cœur Dynamique de l'Application -->
+            <main class="l-canvas p-xl" id="main-content">
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header flex-row justify-between border-bottom pb-sm mb-md">
+                        <h2 class="highlight-cyan font-mono">CONSOLE OMNISCIENTE</h2>
+                        <button class="c-btn c-btn-primary bg-cyan text-base radius-sm p-sm" id="btn-sync">Saisir observation</button>
+                    </header>
+                    
+                    <div class="panel-body">
+                        <!-- Module d'interaction rapide -->
+                        <div class="observation-form flex-col gap-sm mb-lg">
+                            <label for="behavior-select" class="text-muted font-mono">Détecter un comportement :</label>
+                            <select id="behavior-select" class="c-input bg-base text-main border-standard radius-sm p-sm font-ui">
+                                <option value="DOG:haletement_rapide">Aky : Halètement rapide post-jeu</option>
+                                <option value="DOG:posture_sur_le_dos">Aky : Posture sur le dos (Confiance)</option>
+                                <option value="CAT:observation_distante">Rakai : Observation distante</option>
+                            </select>
+                            <button class="c-btn c-btn-outline border-cyan highlight-cyan radius-sm p-sm mt-sm" id="btn-analyze">Analyser (AGI)</button>
+                        </div>
+
+                        <!-- Résultat de l'analyse -->
+                        <div class="analysis-result bg-base border-standard radius-sm p-md" id="oracle-output">
+                            <p class="placeholder-text text-muted font-mono">En attente de données sensorielles...</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- ASIDE DROITE : Terminal de Logs et Mémoire (soup.md) -->
+            <aside class="right-drawer bg-surface border-left p-md blur-bg" id="terminal-drawer">
+                <div class="drawer-header border-bottom pb-sm mb-md">
+                    <h2 class="font-mono highlight-orange">SYSTEM LOGS</h2>
+                </div>
+                <div class="drawer-content terminal-window bg-base border-standard radius-sm p-sm font-mono text-muted overflow-y">
+                    <pre><code>[INIT] Chargement de l'environnement...
+[SYNC] KERNEL CVNU_v2.5.0 détecté.
+[MEM] Initialisation de soup.md...
+[WAIT] En attente des flux d'Aky & Rakai...</code></pre>
+                </div>
+            </aside>
+
+        </div>
+
+        <!-- FOOTER : Mentions Légales et Validation -->
+        <footer class="hud-footer bg-surface border-top p-sm flex-row justify-between text-muted font-mono small-text">
+            <p>&copy; 2026 - CVNU Architecture &middot; <a href="#" class="highlight-cyan">GitHub Repository</a></p>
+            <p>Normes Sémantiques W3C Validées</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts Modulaires Externes -->
+    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/controller.js"></script>
+    <script type="module" src="assets/js/telemetry.js"></script>
+
+</body>
+</html>

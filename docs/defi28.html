@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi 28 Jours | Hub Aky & Rakai</title>
+    
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); margin-bottom: var(--space-lg); }
+        .kpi-box { text-align: center; }
+        .kpi-value { font-size: 2rem; font-weight: 700; margin: 0.5rem 0; }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        
+        <header class="hud-header bg-surface border-bottom p-md">
+            <div class="logo-zone">
+                <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+            </div>
+        </header>
+
+        <nav class="hud-nav border-bottom" aria-label="Navigation Principale">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB CENTRAL</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] L'HISTOIRE</a></li>
+                <li><a href="education.html" class="text-muted">[03] ÉDUCATION (10 Étapes)</a></li>
+                <li><a href="defi28.html" class="active highlight-cyan" aria-current="page">[04] DÉFI 28 JOURS</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            
+            <main class="l-canvas p-xl" style="width:100%;">
+                <header class="mb-lg">
+                    <h2 class="highlight-green font-mono">CHALLENGE CVNU : AUTONOMIE RUP</h2>
+                    <p class="text-muted">Suivi de la valorisation UTMi et de l'économie circulaire sur le cycle de 28 jours.</p>
+                </header>
+
+                <div class="kpi-grid">
+                    <div class="card bg-surface border-standard radius-md p-md kpi-box">
+                        <h3 class="font-mono text-muted">JOUR ACTUEL</h3>
+                        <div id="jour-actuel-kpi" class="kpi-value highlight-cyan font-mono">01 / 28</div>
+                        <p class="small-text text-muted">Cycle de synchronisation</p>
+                    </div>
+                    <div class="card bg-surface border-standard radius-md p-md kpi-box">
+                        <h3 class="font-mono text-muted">VALEUR GÉNÉRÉE (UTMi)</h3>
+                        <div id="valeur-utmi-kpi" class="kpi-value highlight-green font-mono">En calcul...</div>
+                        <p class="small-text text-muted">Objectif MVP : 7500</p>
+                    </div>
+                    <div class="card bg-surface border-standard radius-md p-md kpi-box">
+                        <h3 class="font-mono text-muted">TAXE AI (Circulaire)</h3>
+                        <div id="tax-ai-kpi" class="kpi-value highlight-orange font-mono">En calcul...</div>
+                        <p class="small-text text-muted">Redistribué au fonds RUP</p>
+                    </div>
+                </div>
+
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <h3 class="highlight-cyan font-mono mb-md">LIVRABLES DU JOUR</h3>
+                    <ul style="list-style: none; padding: 0;" class="flex-col gap-sm">
+                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <span class="font-mono">1. Paramétrage des générateurs d'images (/meta_style)</span>
+                            <span class="highlight-green font-mono">[ DONE ]</span>
+                        </li>
+                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <span class="font-mono">2. Intégration du module d'éducation canine</span>
+                            <span class="highlight-green font-mono">[ DONE ]</span>
+                        </li>
+                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <span class="font-mono">3. Chargement des moteurs économiques Core</span>
+                            <span class="highlight-green font-mono">[ DONE ]</span>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="core/utms_calculator.js"></script>
+    <script src="core/circular_tax_engine.js"></script>
+    <script src="core/rup_manager.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("✅ [DEFI] Moteurs Core chargés et prêts.");
+            
+            // Vérification de la présence du calculateur UTMi
+            if (typeof window.utmiCalculator !== 'undefined') {
+                console.log("⚙️ Moteur UTMi actif. Coefficients :", window.utmiCalculator.COEFFICIENTS);
+                
+                // Simulation immédiate d'une interaction d'éducation pour tester le flux
+                const interactionSimulation = {
+                    promptTokens: 150,
+                    responseTokens: 300,
+                    processingTime: 1.2,
+                    topic: "education_canine", // Déclenche un bonus thématique potentiel
+                    cvnuLevel: 1, 
+                    model: "llama-3.1-8b-instant"
+                };
+
+                try {
+                    // Calcul via le moteur racine
+                    const result = window.utmiCalculator.calculateUtmi(interactionSimulation, {});
+                    console.log(`[CVNU] Valeur générée simulée : ${result.utmi} UTMi`);
+                    
+                    // Mise à jour visuelle du KPi Valeur Générée
+                    const kpiUtmi = document.getElementById('valeur-utmi-kpi');
+                    if (kpiUtmi) {
+                        kpiUtmi.innerText = result.utmi.toFixed(2) + " Ꞓ";
+                    }
+
+                    // Calcul et mise à jour de la Taxe IA (Ex: 5% ou 6.8% selon configuration)
+                    const kpiTaxe = document.getElementById('tax-ai-kpi');
+                    if (kpiTaxe) {
+                        // Utilisation du taux config standard à 6.8%
+                        const taxe = result.utmi * 0.068; 
+                        kpiTaxe.innerText = taxe.toFixed(2) + " €";
+                    }
+                } catch (error) {
+                    console.error("⚠️ [CVNU] Erreur lors du calcul UTMi :", error);
+                }
+            } else {
+                console.warn("⚠️ [DEFI] utms_calculator.js n'a pas pu être chargé. Vérifiez le chemin 'core/'.");
+            }
+        });
+    </script>
+</body>
+</html>
