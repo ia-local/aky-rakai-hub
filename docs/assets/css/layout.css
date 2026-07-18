@@ -169,46 +169,49 @@ body, html {
     .grid-lexicon { grid-template-columns: repeat(2, 1fr); }
 }
 /* ==========================================================================
-   CORRECTION RESPONSIVE : DEVERROUILLAGE DU SCROLL MOBILE
-   ========================================================================== */
-/* ==========================================================================
-   CORRECTION RESPONSIVE : DEVERROUILLAGE DU SCROLL MOBILE (TACTILE)
+   CORRECTION RESPONSIVE : SCROLL NATIF MOBILE (100% GARANTI)
    ========================================================================== */
 @media (max-width: 767px) {
-    /* 1. On force le conteneur principal à faire exactement la taille de l'écran mobile, 
-          en utilisant 'dvh' pour éviter que la barre d'URL du navigateur cache le bas */
-    .app-container {
-        display: flex;
-        flex-direction: column;
-        height: 100dvh; 
-        overflow: hidden;
+    /* 1. On déverrouille TOTALEMENT le scroll global du téléphone */
+    html, body {
+        height: auto !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch; /* Optimisation iOS/Android */
     }
 
-    /* 2. Le workspace prend l'espace restant et active le scroll tactile */
-    .workspace {
-        flex-direction: column;
-        flex: 1; /* Prend tout l'espace disponible sous le menu */
-        height: 0; /* Astuce Flexbox vitale pour forcer le navigateur à créer une barre de scroll interne */
-        overflow-y: auto;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch; /* INDISPENSABLE : Active le scroll fluide avec élan sur iOS/Android */
+    /* 2. On annule les restrictions Flexbox du layout "bureau" */
+    .app-container, .workspace {
+        display: block !important; /* Annule le flex */
+        height: auto !important;
+        overflow: visible !important;
     }
 
-    /* 3. Les tiroirs s'empilent */
-    .left-drawer, 
-    .right-drawer {
+    /* 3. On cloue le menu de navigation tout en bas de l'écran */
+    .hud-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
         width: 100%;
-        height: auto;
-        flex-shrink: 0;
-        border-right: none;
-        border-left: none;
-        border-bottom: 1px solid var(--color-border);
+        z-index: 9999;
+        background-color: var(--bg-base, #0a0a0a); /* À ajuster si votre fond n'est pas noir */
+        border-top: 1px solid var(--color-border);
+        border-bottom: none;
     }
 
-    /* 4. Le contenu s'adapte */
+    /* 4. On protège le bas du contenu pour qu'il ne passe pas sous le menu fixe */
     .l-canvas {
         width: 100%;
         padding: var(--space-md);
-        padding-bottom: 80px; /* Marge de sécurité pour être sûr que la dernière photo ne touche pas le bas */
+        padding-bottom: 120px !important; /* Marge de sécurité très large pour le menu */
+    }
+
+    /* 5. Les tiroirs latéraux s'empilent comme des blocs standards */
+    .left-drawer, .right-drawer {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid var(--color-border);
     }
 }
