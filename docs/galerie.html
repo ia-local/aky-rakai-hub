@@ -10,6 +10,8 @@
 </head>
 <body class="hud-theme-dark bg-base text-main">
     <div class="app-container">
+        
+        <!-- NAVIGATION -->
         <nav class="hud-nav border-bottom">
             <ul class="flex-row">
                 <li><a href="index.html" class="text-muted">[01] HUB</a></li>
@@ -20,11 +22,18 @@
             </ul>
         </nav>
 
-        <main class="p-xl">
-            <h2 class="highlight-cyan font-mono mb-lg">GALERIE MÉMOIRE (J10)</h2>
-            <div class="grid-gallery gallery-grid"></div>
-        </main>
-    </div>
+        <!-- ESPACE DE TRAVAIL (C'est lui qui gère le scroll sur mobile) -->
+        
+        <div class="workspace flex-row">
+            <!-- CONTENU PRINCIPAL -->
+            <main class="l-canvas p-xl w-full">
+                <h2 class="highlight-cyan font-mono mb-lg">GALERIE MÉMOIRE (J10)</h2>
+                <div class="grid-gallery gallery-grid"></div>
+            </main>
+
+        </div> <!-- Fin du .workspace -->
+        
+    </div> <!-- Fin de .app-container -->
 
     <!-- Modale de Zoom propre -->
     <div id="gallery-modal" class="modal-overlay">

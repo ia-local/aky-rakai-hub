@@ -168,3 +168,32 @@ body, html {
     .grid-kpi { grid-template-columns: repeat(3, 1fr); }
     .grid-lexicon { grid-template-columns: repeat(2, 1fr); }
 }
+/* ==========================================================================
+   CORRECTION RESPONSIVE : DEVERROUILLAGE DU SCROLL MOBILE
+   ========================================================================== */
+@media (max-width: 767px) {
+    /* On empile le contenu et on réactive le défilement vertical */
+    .workspace {
+        flex-direction: column;
+        overflow-y: auto;   /* Fait réapparaître la barre de défilement verticale */
+        overflow-x: hidden; /* Empêche les débordements sur le côté */
+    }
+
+    /* Les tiroirs de côté prennent toute la largeur sur mobile */
+    .left-drawer, 
+    .right-drawer {
+        width: 100%;
+        height: auto;
+        flex-shrink: 0;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Le contenu principal s'adapte et gère ses marges */
+    .l-canvas {
+        width: 100%;
+        overflow-y: visible; /* Le scroll est maintenant géré par le .workspace */
+        padding: var(--space-md); /* On réduit un peu le padding énorme sur mobile */
+    }
+}
