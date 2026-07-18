@@ -171,15 +171,30 @@ body, html {
 /* ==========================================================================
    CORRECTION RESPONSIVE : DEVERROUILLAGE DU SCROLL MOBILE
    ========================================================================== */
+/* ==========================================================================
+   CORRECTION RESPONSIVE : DEVERROUILLAGE DU SCROLL MOBILE (TACTILE)
+   ========================================================================== */
 @media (max-width: 767px) {
-    /* On empile le contenu et on réactive le défilement vertical */
-    .workspace {
+    /* 1. On force le conteneur principal à faire exactement la taille de l'écran mobile, 
+          en utilisant 'dvh' pour éviter que la barre d'URL du navigateur cache le bas */
+    .app-container {
+        display: flex;
         flex-direction: column;
-        overflow-y: auto;   /* Fait réapparaître la barre de défilement verticale */
-        overflow-x: hidden; /* Empêche les débordements sur le côté */
+        height: 100dvh; 
+        overflow: hidden;
     }
 
-    /* Les tiroirs de côté prennent toute la largeur sur mobile */
+    /* 2. Le workspace prend l'espace restant et active le scroll tactile */
+    .workspace {
+        flex-direction: column;
+        flex: 1; /* Prend tout l'espace disponible sous le menu */
+        height: 0; /* Astuce Flexbox vitale pour forcer le navigateur à créer une barre de scroll interne */
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch; /* INDISPENSABLE : Active le scroll fluide avec élan sur iOS/Android */
+    }
+
+    /* 3. Les tiroirs s'empilent */
     .left-drawer, 
     .right-drawer {
         width: 100%;
@@ -190,10 +205,10 @@ body, html {
         border-bottom: 1px solid var(--color-border);
     }
 
-    /* Le contenu principal s'adapte et gère ses marges */
+    /* 4. Le contenu s'adapte */
     .l-canvas {
         width: 100%;
-        overflow-y: visible; /* Le scroll est maintenant géré par le .workspace */
-        padding: var(--space-md); /* On réduit un peu le padding énorme sur mobile */
+        padding: var(--space-md);
+        padding-bottom: 80px; /* Marge de sécurité pour être sûr que la dernière photo ne touche pas le bas */
     }
 }
