@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bulletin de Paie Numérique - RUP CVNU</title>
+    
+    <!-- Intégration du Design System de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.min.css">
+    
+    <style>
+        :root {
+            --cvnu-primary: #000091;
+            --cvnu-success: #18753C;
+        }
+        body {
+            background-color: #f6f6f6;
+        }
+        .cvnu-container {
+            max-width: 850px;
+            margin: 3rem auto;
+            background: #fff;
+            padding: 2rem;
+            border: 1px solid #e3e3fd;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .blockchain-hash {
+            font-family: monospace;
+            word-break: break-all;
+            color: var(--cvnu-success);
+            background: #e5fbf0;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+        .print-only { display: none; }
+        
+        /* Optimisation pour l'export PDF / Impression */
+        @media print {
+            body { background: #fff; }
+            .cvnu-container { margin: 0; border: none; box-shadow: none; padding: 0; }
+            .no-print { display: none !important; }
+            .print-only { display: block; }
+        }
+    </style>
+
+    <!-- W3C Semantic Web: JSON-LD pour l'interopérabilité des données d'État -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PayAction",
+      "name": "Versement du Revenu Universel Progressif (RUP)",
+      "agent": {
+        "@type": "GovernmentOrganization",
+        "name": "Fonds du Revenu Citoyen (FRC)"
+      },
+      "recipient": {
+        "@type": "Person",
+        "name": "Citoyen Souverain",
+        "identifier": "0x742d...444"
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "749.59",
+        "priceCurrency": "EUR",
+        "valueAddedTaxIncluded": true
+      },
+      "instrument": {
+        "@type": "DigitalDocument",
+        "name": "Smart Contract TVA_RIB_Synchronizer"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- En-tête Marianne DSFR -->
+    <header role="banner" class="fr-header no-print">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">République<br>Française</p>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <p class="fr-header__service-title">Dôme d'Initiative Citoyenne (CVNU)</p>
+                            <p class="fr-header__service-tagline">Registre Inaltérable du Revenu Universel Progressif</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="fr-container">
+        <!-- Conteneur principal du bulletin -->
+        <article class="cvnu-container" vocab="http://schema.org/" typeof="Invoice">
+            
+            <div class="fr-grid-row fr-grid-row--middle fr-mb-4w">
+                <div class="fr-col-12 fr-col-md-8">
+                    <h1 class="fr-h3 fr-mb-1v" property="name">Bulletin de Paie Numérique</h1>
+                    <p class="fr-text--sm fr-mb-0">Cycle 28j - J13 | Période de facturation CVNU</p>
+                </div>
+                <div class="fr-col-12 fr-col-md-4 fr-text--right">
+                    <p class="fr-badge fr-badge--success fr-badge--no-icon">ÉTAT : VALIDÉ eIDAS</p>
+                </div>
+            </div>
+
+            <hr class="fr-hr fr-pb-2w">
+
+            <!-- Informations Citoyen & Identité Souveraine -->
+            <section class="fr-grid-row fr-mb-4w">
+                <div class="fr-col-12 fr-col-md-6">
+                    <h2 class="fr-h6">Émetteur</h2>
+                    <p class="fr-text--sm">
+                        <strong>Fonds du Revenu Citoyen (FRC)</strong><br>
+                        Smart Contract: <code>CVNU.sol / TVACollectorV2.sol</code><br>
+                        Protocole de redistribution circulaire
+                    </p>
+                </div>
+                <div class="fr-col-12 fr-col-md-6" property="customer" typeof="Person">
+                    <h2 class="fr-h6">Bénéficiaire Souverain</h2>
+                    <p class="fr-text--sm">
+                        <strong property="name">Citoyen CVNU (USER_01)</strong><br>
+                        Niveau CVNU: <span class="fr-badge fr-badge--info fr-badge--sm">Level 4</span><br>
+                        Matricule SC: <code>LPST-5</code>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Table des transactions sémantique -->
+            <section class="fr-table fr-table--no-caption">
+                <table property="description">
+                    <caption>Détail de la rémunération et des contributions</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Désignation</th>
+                            <th scope="col" class="fr-text--center">Base / Unité</th>
+                            <th scope="col" class="fr-text--right">Taux</th>
+                            <th scope="col" class="fr-text--right">Montant (EUR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Revenu Universel Progressif (Brut)</strong><br><span class="fr-text--xs">Valorisation UTMi (Art. L3121-1)</span></td>
+                            <td class="fr-text--center">804.28 UTMi</td>
+                            <td class="fr-text--right">1.00</td>
+                            <td class="fr-text--right">804.28 €</td>
+                        </tr>
+                        <tr class="fr-table__row--highlight">
+                            <td><strong>Contribution Fonds RUP (Taxe IA)</strong><br><span class="fr-text--xs">Redistribution Circulaire</span></td>
+                            <td class="fr-text--center">804.28 €</td>
+                            <td class="fr-text--right">6.8 %</td>
+                            <td class="fr-text--right">- 54.69 €</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3" class="fr-text--right"><strong>NET À PAYER (RIB)</strong></th>
+                            <td class="fr-text--right"><strong><span property="totalPaymentDue">749.59</span> €</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- Preuves Cryptographiques (ZKP / Hachage) -->
+            <section class="fr-mt-4w fr-p-2w" style="background-color: #f9f8f6; border-left: 4px solid var(--cvnu-primary);">
+                <h3 class="fr-h6 fr-text--sm fr-mb-1v">Traçabilité & Preuve Cryptographique</h3>
+                <p class="fr-text--xs fr-mb-1v">
+                    <strong>Ancrage Blockchain :</strong> <span class="blockchain-hash" property="confirmationNumber">0x7f83b2a1...4A2B9C8E</span><br>
+                    <strong>Hash RIB (Zero-Knowledge) :</strong> <span class="blockchain-hash">0x8a9b...cf12 (Vérifié hors-chaîne)</span><br>
+                    <strong>Signature Serveur :</strong> Protocole JWT HS256 conforme eIDAS.
+                </p>
+            </section>
+
+            <!-- Actions (Boutons masqués à l'impression) -->
+            <div class="fr-mt-4w fr-grid-row fr-grid-row--right no-print">
+                <ul class="fr-btns-group fr-btns-group--inline">
+                    <li>
+                        <button class="fr-btn fr-btn--secondary" onclick="exportToXML()">
+                            Exporter XML (SEPA)
+                        </button>
+                    </li>
+                    <li>
+                        <button class="fr-btn" onclick="window.print()">
+                            Télécharger / Imprimer PDF
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </article>
+    </main>
+
+    <!-- Script de logique Front-End -->
+    <script>
+        /**
+         * Fonction de simulation pour l'export SEPA / ISO 20022
+         * S'interface virtuellement avec /server_modules/ CORE_SYSTEM_CVNU.js
+         */
+        function exportToXML() {
+            const netAmount = 749.59;
+            const xmlPayload = `<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+    <CstmrCdtTrfInitn>
+        <GrpHdr>
+            <MsgId>CVNU-RUP-${Date.now()}</MsgId>
+            <CreDtTm>${new Date().toISOString()}</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+        </GrpHdr>
+        <PmtInf>
+            <CdtTrfTxInf>
+                <Amt Ccy="EUR">${netAmount}</Amt>
+                <CdtrAcct><Id><IBAN>[CHIFFRÉ_POUR_LA_DÉMO]</IBAN></Id></CdtrAcct>
+            </CdtTrfTxInf>
+        </PmtInf>
+    </CstmrCdtTrfInitn>
+</Document>`;
+
+            // Création d'un blob pour téléchargement
+            const blob = new Blob([xmlPayload], { type: 'text/xml' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `SEPA_CVNU_${Date.now()}.xml`;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        }
+    </script>
+
+</body>
+</html>

@@ -26,12 +26,13 @@
             </div>
         </header>
 
-        <nav class="hud-nav border-bottom" aria-label="Navigation Principale">
+        <nav class="hud-nav border-bottom">
             <ul class="flex-row">
-                <li><a href="index.html" class="text-muted">[01] HUB CENTRAL</a></li>
-                <li><a href="histoire.html" class="text-muted">[02] L'HISTOIRE</a></li>
-                <li><a href="education.html" class="text-muted">[03] ÉDUCATION (10 Étapes)</a></li>
-                <li><a href="defi28.html" class="active highlight-cyan" aria-current="page">[04] DÉFI 28 JOURS</a></li>
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="text-muted">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="active highlight-cyan">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
             </ul>
         </nav>
 
@@ -128,6 +129,12 @@
             } else {
                 console.warn("⚠️ [DEFI] utms_calculator.js n'a pas pu être chargé. Vérifiez le chemin 'core/'.");
             }
+            const startChallengeDate = new Date("2026-07-14"); // Date de début de votre cycle
+const now = new Date();
+const diffTime = Math.abs(now - startChallengeDate);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+
+document.getElementById('jour-actuel-kpi').innerText = `${diffDays} / 28`;
         });
     </script>
 </body>

@@ -117,7 +117,22 @@ app.get('/api/cvnu/status', (req, res) => {
 
     res.json({ success: true, data });
 });
-
+// Dans server.js
+// Route pour lister les images dynamiquement
+app.get('/api/gallery/images', (req, res) => {
+    // Chemin vers votre dossier d'images (ajustez selon votre structure réelle)
+    const imgDir = path.join(__dirname, 'docs', 'assets', 'img');
+    
+    fs.readdir(imgDir, (err, files) => {
+        if (err) {
+            console.error("Erreur lecture dossier img :", err);
+            return res.status(500).json({ error: "Impossible de lire le dossier." });
+        }
+        // Filtrage des formats d'image
+        const images = files.filter(f => /\.(jpg|png|jpeg|webp)$/i.test(f));
+        res.json(images);
+    });
+});
 // Démarrage du serveur et du pont Web3
 app.listen(PORT, async () => {
     console.log(`\n╔════════════════════════════════════════════════════════════╗`);
@@ -129,9 +144,10 @@ app.listen(PORT, async () => {
     if (FiatBridgeOracle) {
         try {
             const oracle = new FiatBridgeOracle();
-            await oracle.start(); // Lance l'écoute des Smart Contracts
+            await oracle.start(); 
         } catch (error) {
-            console.error("🔴 [WEB3] Erreur de connexion à la Blockchain :", error.message);
+            // ICI : On empêche le crash total si la blockchain est coupée
+            console.error("🔴 [WEB3] Blockchain indisponible, mais serveur opérationnel.");
         }
     }
 });

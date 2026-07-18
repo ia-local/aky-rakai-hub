@@ -5,48 +5,78 @@
  */
 
 /* ==========================================================================
-   1. NAVIGATION PRINCIPALE (HUD Nav)
+   NAVIGATION PRINCIPALE (Mobile-First : Bottom Bar)
    ========================================================================== */
-.hud-nav ul {
-    list-style: none; /* Suppression des puces par défaut */
-    margin: 0;
-    padding: 0 1rem;
-    height: 100%;
-}
 
-.hud-nav li {
-    margin-right: 2rem;
-}
-
-.hud-nav a {
-    text-decoration: none;
-    font-family: var(--font-mono);
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    padding: 0.5rem 0;
-    display: inline-block;
-    position: relative;
-    transition: var(--transition-fast);
-}
-
-.hud-nav a:hover {
-    color: var(--color-accent-cyan);
-    text-shadow: var(--shadow-cyan);
-}
-
-/* Ligne indicatrice sous le lien actif */
-.hud-nav a.active::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
+/* Comportement par défaut (Mobile) : Menu ancré en bas */
+.hud-nav {
+    position: fixed;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px;
-    background-color: var(--color-accent-cyan);
-    box-shadow: var(--shadow-cyan);
+    z-index: 1000;
+    background-color: var(--color-bg-surface);
+    border-top: 1px solid var(--color-border);
+    border-bottom: none; /* Annule la bordure du bas sur mobile */
 }
 
+/* Répartition des liens façon "App" */
+.hud-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Espacement uniforme */
+    align-items: center;
+    padding: var(--space-sm) 0;
+    margin: 0;
+    list-style: none;
+    overflow-x: auto; /* Permet un scroll horizontal discret si l'écran est minuscule */
+    white-space: nowrap;
+}
+
+/* Style des liens sur mobile */
+.hud-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-sm);
+    font-size: 0.8rem; /* Texte légèrement plus petit pour tout faire rentrer */
+    text-decoration: none;
+}
+
+/* 
+   IMPORTANT : Compenser l'espace pris par la barre en bas 
+   pour que le contenu ne disparaisse pas derrière !
+*/
+.workspace {
+    padding-bottom: 70px; /* À ajuster selon la hauteur réelle de ta barre */
+}
+
+/* ==========================================================================
+   BREAKPOINT DESKTOP / TABLETTE (Retour au top)
+   ========================================================================== */
+@media (min-width: 768px) {
+    .hud-nav {
+        position: static; /* Le menu reprend sa place normale dans le flux */
+        border-top: none;
+        border-bottom: 1px solid var(--color-border);
+        width: auto;
+    }
+    
+    .hud-nav ul {
+        justify-content: flex-start; /* Aligné à gauche sur grand écran */
+        padding: 0;
+        overflow-x: visible;
+    }
+
+    .hud-nav a {
+        padding: var(--space-md);
+        font-size: 1rem;
+    }
+
+    .workspace {
+        padding-bottom: 0; /* Annule l'espacement du bas sur grand écran */
+    }
+}
 /* ==========================================================================
    2. BOUTONS (Les contrôleurs d'action)
    ========================================================================== */
@@ -192,4 +222,67 @@ select.c-input {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--color-accent-cyan);
+}
+/* Animation Galerie */
+.gallery-item { 
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+.gallery-item:hover { 
+    transform: scale(1.02);
+    filter: brightness(1.1);
+}
+/* Utilitaires Visuels */
+.text-lg { font-size: 1.1rem; }
+.opacity-70 { opacity: 0.7; }
+
+/* KPI Box (Défi 28J) */
+.kpi-box { text-align: center; }
+.kpi-value { font-size: 2rem; font-weight: 700; margin: 0.5rem 0; }
+
+/* Galerie (Images et Animations) */
+.gallery-item { 
+    border-radius: var(--radius-md); 
+    overflow: hidden; 
+    border: 1px solid var(--color-surface); 
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    cursor: pointer; 
+}
+.gallery-item img { 
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+}
+.gallery-item:hover { 
+    transform: scale(1.02); 
+    filter: brightness(1.1); 
+}
+
+/* Modale de Zoom (Galerie) */
+.modal-overlay { 
+    display: none; 
+    position: fixed; 
+    z-index: 100; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0,0.9); 
+    justify-content: center; 
+    align-items: center; 
+}
+.modal-overlay.active { display: flex; }
+.modal-close { 
+    position: absolute; 
+    top: 20px; 
+    right: 40px; 
+    color: white; 
+    font-size: 40px; 
+    cursor: pointer; 
+}
+.modal-img { 
+    max-width: 90%; 
+    max-height: 80%; 
+    border-radius: var(--radius-md); 
+    transition: transform 0.3s ease; 
 }

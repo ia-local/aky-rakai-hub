@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+</head>
+<body class="hud-theme-dark bg-base text-main">
+    <div class="app-container">
+        <nav class="hud-nav border-bottom">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="text-muted">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="active highlight-cyan">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+            </ul>
+        </nav>
+
+        <main class="p-xl">
+            <h2 class="highlight-cyan font-mono mb-lg">GALERIE MÉMOIRE (J10)</h2>
+            <div class="grid-gallery gallery-grid"></div>
+        </main>
+    </div>
+
+    <!-- Modale de Zoom propre -->
+    <div id="gallery-modal" class="modal-overlay">
+        <span class="modal-close">&times;</span>
+        <img id="modal-img" class="modal-img" alt="Zoom">
+    </div>
+
+    <script type="module">
+        import { initGallery } from './assets/js/galerie.js';
+        initGallery();
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tableau de bord souverain - Mission Alpha du Dôme d'Initiative Citoyenne.">
+    <title>Mission Alpha - Dashboard RUP | Dôme d'Initiative Citoyenne</title>
+    
+    <!-- Intégration du Design System de l'État (DSFR) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/utility/utility.main.min.css">
+    
+    <!-- Intégration de Chart.js pour la Data-Visualisation -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Styles spécifiques au Dashboard -->
+    <style>
+        body {
+            background-color: var(--background-default-grey);
+        }
+        .fr-kpi-card {
+            background-color: var(--background-alt-blue-france);
+            border: 1px solid var(--border-default-blue-france);
+            border-radius: 0.25rem;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+        .fr-kpi-card:hover {
+            transform: translateY(-2px);
+        }
+        .fr-kpi-title {
+            font-size: 1.125rem;
+            color: var(--text-title-grey);
+            margin-bottom: 0.5rem;
+        }
+        .fr-kpi-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-label-blue-france);
+            margin: 0;
+            line-height: 1.2;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            width: 100%;
+            padding: 1.5rem;
+            background-color: var(--background-default-grey);
+            border: 1px solid var(--border-default-grey);
+            border-radius: 0.25rem;
+        }
+        .security-badge {
+            display: inline-flex;
+            align-items: center;
+            color: var(--text-default-success);
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header DSFR -->
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">
+                                    République<br>Française
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="#" title="Retour à l'accueil - Dôme d'Initiative Citoyenne">
+                                <p class="fr-header__service-title">Dôme d'Initiative Citoyenne</p>
+                            </a>
+                            <p class="fr-header__service-tagline">Système CVNU - Console d'Administration (Niveau 4)</p>
+                        </div>
+                    </div>
+                    <div class="fr-header__tools">
+                        <div class="fr-header__tools-links">
+                            <ul class="fr-btns-group">
+                                <li>
+                                    <span class="security-badge fr-icon-lock-fill" aria-hidden="true"> AntiScam_313.js Actif</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main role="main" id="content">
+        <div class="fr-container fr-py-6w">
+            
+            <div class="fr-grid-row fr-grid-row--gutters fr-mb-4w">
+                <div class="fr-col-12">
+                    <h1 class="fr-h1">Tableau de Bord Souverain</h1>
+                    <p class="fr-text--lead">
+                        Analyse financière de l'économie circulaire : Répartition de la valeur brute générée, versement du Revenu Universel Progressif (RUP) et contribution à la Taxe IA.
+                    </p>
+                    <div class="fr-badge fr-badge--info fr-mb-3w">Utilisateur: MICKAEL (Matricule: LPST-5) | Localisation: Bavent</div>
+                </div>
+            </div>
+
+            <!-- KPIs (Key Performance Indicators) -->
+            <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-kpi-card">
+                        <p class="fr-kpi-title">Valeur Brute Générée</p>
+                        <p class="fr-kpi-value">2 452,79 €</p>
+                        <p class="fr-text--xs fr-mt-1v fr-mb-0">Basé sur preuves d'achats injectées</p>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-kpi-card">
+                        <p class="fr-kpi-title">Revenu Net Sécurisé (RUP)</p>
+                        <p class="fr-kpi-value" style="color: var(--text-default-success);">2 286,00 €</p>
+                        <p class="fr-text--xs fr-mt-1v fr-mb-0">Transféré vers le Wallet</p>
+                    </div>
+                </div>
+                <div class="fr-col-12 fr-col-md-4">
+                    <div class="fr-kpi-card">
+                        <p class="fr-kpi-title">Taxe IA (6.8%) Réinjectée</p>
+                        <p class="fr-kpi-value" style="color: var(--text-default-warning);">166,79 €</p>
+                        <p class="fr-text--xs fr-mt-1v fr-mb-0">Alimentation du fonds commun (Niv 1-3)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zone de Graphique Chart.js -->
+            <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-2">
+                    <h2 class="fr-h3 fr-mb-3w text-center">Répartition des Flux RUP</h2>
+                    <div class="chart-container">
+                        <canvas id="rupChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer DSFR -->
+    <footer class="fr-footer" role="contentinfo" id="footer">
+        <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand fr-enlarge-link">
+                    <p class="fr-logo" title="République française">
+                        République<br>Française
+                    </p>
+                </div>
+                <div class="fr-footer__content">
+                    <p class="fr-footer__content-desc">Dôme d'Initiative Citoyenne propulsé par CORE_SYSTEM_CVNU.js. Architecture Zero Trust garantissant la séparation des pouvoirs, l'intégrité démocratique et la souveraineté économique.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts DSFR -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule src="https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.10.2/dist/dsfr/dsfr.nomodule.min.js"></script>
+
+    <!-- Initialisation de Chart.js -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const ctx = document.getElementById('rupChart').getContext('2d');
+            
+            // Configuration des données issues de l'API KERNEL
+            const chartData = {
+                labels: [
+                    'Revenu Net Distribué (RUP)', 
+                    'Taxe IA (Fonds de Solidarité)'
+                ],
+                datasets: [{
+                    label: 'Flux Financier (€)',
+                    data: [2286.00, 166.79], // Données dynamiques du matricule LPST-5
+                    backgroundColor: [
+                        'rgba(0, 0, 145, 0.8)',   // Bleu France (Net)
+                        'rgba(255, 161, 51, 0.8)' // Orange / Warning DSFR (Taxe IA)
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 145, 1)',
+                        'rgba(255, 161, 51, 1)'
+                    ],
+                    borderWidth: 1,
+                    hoverOffset: 4
+                }]
+            };
+
+            // Configuration du graphique en anneau (Doughnut)
+            const config = {
+                type: 'doughnut',
+                data: chartData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                font: {
+                                    family: '"Marianne", arial, sans-serif',
+                                    size: 14
+                                },
+                                color: '#1E1E1E' // text-title-grey
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(context.parsed);
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    cutout: '65%' // Style épuré
+                }
+            };
+
+            // Rendu
+            new Chart(ctx, config);
+        });
+    </script>
+</body>
+</html>

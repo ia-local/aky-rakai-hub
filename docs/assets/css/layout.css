@@ -131,3 +131,40 @@ body, html {
 }
 
 .overflow-y { overflow-y: auto; }
+/* Utilitaires W3C manquants */
+.w-full { width: 100%; }
+.max-w-1200 { max-width: 1200px; margin: 0 auto; }
+.list-none { list-style: none; padding: 0; }
+.m-0 { margin: 0; }
+
+/* Grilles Modulaires & Responsives (Mobile-First) */
+.grid-kpi { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: var(--space-md); 
+    margin-bottom: var(--space-lg); 
+}
+
+.grid-10 { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: var(--space-md); 
+}
+
+.grid-lexicon { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: var(--space-sm); 
+}
+
+.grid-gallery { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: var(--space-md); 
+}
+
+/* Breakpoints pour Tablettes et Bureaux */
+@media (min-width: 768px) {
+    .grid-kpi { grid-template-columns: repeat(3, 1fr); }
+    .grid-lexicon { grid-template-columns: repeat(2, 1fr); }
+}
