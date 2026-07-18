@@ -1,5 +1,9 @@
 # 🐾 Hub Aky & Rakai
 
+<div align="center">
+  <img src="docs/assets/img/icon.webp" alt="Logo Hub Aky & Rakai" width="250" style="border-radius: 50%;">
+</div>
+
 Bienvenue sur le dépôt du **Hub Aky & Rakai**, un tableau de bord web interactif aux allures de terminal (HUD). Ce projet sert d'interface éducative et biométrique, tissant un lien unique entre la technologie (Intelligence Artificielle locale, interfaces MIDI) et le monde physique.
 
 ---
