@@ -133,6 +133,20 @@ app.get('/api/gallery/images', (req, res) => {
         res.json(images);
     });
 });
+// Route pour écouter la sauvegarde automatique de l'éducation
+app.post('/api/save-education', express.json(), (req, res) => {
+    // Chemin absolu vers le fichier cible
+    const filePath = path.join(__dirname, 'docs','assets', 'json', 'education.json');
+    
+    try {
+        // Écriture du fichier avec une belle indentation (2 espaces)
+        fs.writeFileSync(filePath, JSON.stringify(req.body, null, 2), 'utf8');
+        res.status(200).json({ success: true, message: "Fichier mis à jour avec succès." });
+    } catch (error) {
+        console.error("Erreur d'écriture JSON :", error);
+        res.status(500).json({ success: false, error: "Impossible de modifier le fichier." });
+    }
+});
 // Démarrage du serveur et du pont Web3
 app.listen(PORT, async () => {
     console.log(`\n╔════════════════════════════════════════════════════════════╗`);

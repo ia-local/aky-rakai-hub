@@ -1,0 +1,160 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "La Réponse au Nom",
+      "desc": "Focus immédiat même en présence de Rakai.",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "id": 2,
+      "title": "Apprentissage Propreté",
+      "desc": "Suivi des sorties régulières.",
+      "progress": 60,
+      "color": "cyan"
+    },
+    {
+      "id": 3,
+      "title": "Le 'Assis'",
+      "desc": "Ordre de contrôle de base.",
+      "progress": 10,
+      "color": "cyan"
+    },
+    {
+      "id": 4,
+      "title": "Le 'À ta place'",
+      "desc": "Retour au calme sur le tapis dédié.",
+      "progress": 30,
+      "color": "cyan"
+    },
+    {
+      "id": 5,
+      "title": "Le 'Au pied'",
+      "desc": "Marche et rappel de proximité.",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "id": 6,
+      "title": "Attention à la route",
+      "desc": "Marquage de l'arrêt au trottoir (sécurité).",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "id": 7,
+      "title": "Inhibition Morsure",
+      "desc": "Gestion des 'Bisous' et redirection des 'Mauvaises idées'.",
+      "progress": 40,
+      "color": "cyan"
+    },
+    {
+      "id": 8,
+      "title": "Cohabitation Pacifique",
+      "desc": "Gestion de l'énergie avec Rakai.",
+      "progress": 80,
+      "color": "green"
+    },
+    {
+      "id": 9,
+      "title": "Focus & Ciblage",
+      "desc": "Contact visuel ('Regarde') et target main ('Touche').",
+      "progress": 0,
+      "color": "orange"
+    },
+    {
+      "id": 10,
+      "title": "Échange Coopératif",
+      "desc": "Renoncement ('Tu laisses') et lâcher ('Donne').",
+      "progress": 0,
+      "color": "orange"
+    }
+  ],
+  "lexicon": [
+    {
+      "word": "AKY",
+      "desc": "Identification de soi",
+      "progress": 100,
+      "color": "green"
+    },
+    {
+      "word": "TOILETTE",
+      "desc": "Besoins à l'extérieur",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "AU PIED",
+      "desc": "Rappel de proximité (futur signal sonore)",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "word": "RAKAI",
+      "desc": "Identification du félin de la meute",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "BALLE / JOUET",
+      "desc": "Objet ludique et redirection",
+      "progress": 100,
+      "color": "green"
+    },
+    {
+      "word": "PROMENADE",
+      "desc": "Sortie extérieure partagée avec Rakai",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "MAUVAISE IDÉE",
+      "desc": "Signal d'interruption avant redirection",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "BISOUS",
+      "desc": "Léchage autorisé / Arrêt de la morsure",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "À TA PLACE",
+      "desc": "Aller sur le tapis pour le repos",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "ATTENTION",
+      "desc": "Arrêt de sécurité (Route/Trottoir)",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "word": "TU LAISSES",
+      "desc": "Ignorer un objet ou de la nourriture",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "REGARDE",
+      "desc": "Contact visuel de reconnexion",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "TOUCHE",
+      "desc": "Ciblage de la main avec la truffe",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "DONNE",
+      "desc": "Lâcher un objet en échange d'une récompense",
+      "progress": 5,
+      "color": "orange"
+    }
+  ]
+}

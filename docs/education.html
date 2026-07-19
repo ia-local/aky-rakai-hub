@@ -9,30 +9,45 @@
     <link rel="stylesheet" href="assets/css/resolve.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Composant Grille Spécifique pour les exercices */
         .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
-        /* Style pour le dictionnaire */
-        .lexicon-list { display: grid; grid-template-columns: 1fr; gap: var(--space-sm); }
-        @media (min-width: 768px) { .lexicon-list { grid-template-columns: 1fr 1fr; } }
+        .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+        .hud-btn { 
+            background: transparent; border: 1px solid var(--color-accent-cyan); color: var(--color-accent-cyan); 
+            width: 28px; height: 28px; border-radius: 4px; cursor: pointer; font-family: 'Fira Code', monospace;
+            display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;
+        }
+        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
+        .auto-save-badge {
+            border: 1px solid var(--color-accent-green);
+            color: var(--color-accent-green);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
     </style>
 </head>
 <body class="hud-theme-dark bg-base text-main font-ui">
     <div class="app-container">
-        <header class="hud-header bg-surface border-bottom p-md">
-<div class="logo-zone flex-row gap-sm">
-    <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
-    <div>
-        <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
-    </div>
-</div>
+        <header class="hud-header bg-surface border-bottom p-md flex-row justify-between" style="align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div class="logo-zone flex-row gap-sm">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
+            <div class="flex-row gap-sm">
+                <!-- Indicateur visuel remplaçant les boutons manuels -->
+                <span class="font-mono auto-save-badge">[ API SYNC: ACTIVE ]</span>
+            </div>
         </header>
 
         <nav class="hud-nav border-bottom">
             <ul class="flex-row">
                 <li><a href="index.html" class="text-muted">[01] HUB</a></li>
                 <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
-                <li><a href="education.html" class="text-muted">[03] ÉDUCATION</a></li>
-                <li><a href="galerie.html" class="active highlight-cyan">[04] GALERIE</a></li>
+                <li><a href="education.html" class="active highlight-cyan">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
                 <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
             </ul>
         </nav>
@@ -41,238 +56,33 @@
             <main class="l-canvas p-xl" style="width:100%;">
                 
                 <!-- SECTION 1 : MATRICE DES EXERCICES -->
-                <header class="mb-lg">
-                    <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
-                    <p class="text-muted">Tableau de suivi comportemental pour l'éducatrice canine.</p>
+                <header class="mb-lg flex-row justify-between">
+                    <div>
+                        <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                        <p class="text-muted">Tableau de suivi comportemental interactif (+5% par validation).</p>
+                    </div>
                 </header>
 
-                <div class="grid-10 mb-xl">
-                    <!-- 01 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">01. La Réponse au Nom</h3>
-                        <p class="small-text text-muted mb-sm">Focus immédiat même en présence de Rakai.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 50%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-cyan font-mono">50% - Réagit à son nom</span>
-                    </div>
-
-                    <!-- 02 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">02. Apprentissage Propreté</h3>
-                        <p class="small-text text-muted mb-sm">Suivi des sorties régulières.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 60%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-cyan font-mono">60% - Association du lieu/mot</span>
-                    </div>
-
-                    <!-- 03 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">03. Le "Assis"</h3>
-                        <p class="small-text text-muted mb-sm">Ordre de contrôle de base.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-cyan font-mono">10% - Découverte</span>
-                    </div>
-
-                    <!-- 04 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">04. Le "À ta place"</h3>
-                        <p class="small-text text-muted mb-sm">Retour au calme sur le tapis dédié.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 30%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-cyan font-mono">30% - Dors spontanément dessus</span>
-                    </div>
-
-                    <!-- 05 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">05. Le "Au pied"</h3>
-                        <p class="small-text text-muted mb-sm">Marche et rappel de proximité.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-orange font-mono">10% - Introduction au sifflet</span>
-                    </div>
-
-                    <!-- 06 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">06. "Attention à la route"</h3>
-                        <p class="small-text text-muted mb-sm">Marquage de l'arrêt au trottoir (sécurité).</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 5%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-orange font-mono">5% - À l'étude</span>
-                    </div>
-
-                    <!-- 07 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">07. Inhibition Morsure</h3>
-                        <p class="small-text text-muted mb-sm">Gestion des "Bisous" et redirection des "Mauvaises idées".</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-cyan radius-sm" style="width: 40%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-cyan font-mono">40% - Accepte la redirection (Jouet)</span>
-                    </div>
-
-                    <!-- 08 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">08. Cohabitation Pacifique</h3>
-                        <p class="small-text text-muted mb-sm">Gestion de l'énergie avec Rakai.</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-green radius-sm" style="width: 80%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-green font-mono">80% - Très Bon (Promenades partagées)</span>
-                    </div>
-
-                    <!-- 09 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">09. Focus & Ciblage</h3>
-                        <p class="small-text text-muted mb-sm">Contact visuel ("Regarde") et target main ("Touche").</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-orange radius-sm" style="width: 0%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-orange font-mono">0% - À Découvrir</span>
-                    </div>
-
-                    <!-- 10 -->
-                    <div class="card bg-surface border-standard radius-md p-sm">
-                        <h3 class="font-mono text-main mb-xs">10. Échange Coopératif</h3>
-                        <p class="small-text text-muted mb-sm">Renoncement ("Tu laisses") et lâcher ("Donne").</p>
-                        <div class="progress-bar-container radius-sm bg-base mb-xs">
-                            <div class="progress-bar bg-orange radius-sm" style="width: 0%; height: 6px;"></div>
-                        </div>
-                        <span class="small-text highlight-orange font-mono">0% - À Découvrir</span>
-                    </div>
+                <div class="grid-10 mb-xl" id="exercise-grid">
+                    <!-- Généré dynamiquement par JS -->
                 </div>
 
                 <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
                 <section class="dashboard-panel bg-surface border-standard radius-md p-md">
                     <header class="panel-header border-bottom pb-sm mb-md">
                         <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
-                        <p class="small-text text-muted">Mots associés et compris par Aky.</p>
+                        <p class="small-text text-muted">Mots associés et assimilation par Aky (+5% par validation).</p>
                     </header>
                     
-                    <div class="lexicon-list">
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"AKY"</span>
-                                <p class="small-text text-muted m-0">Identification de soi</p>
-                            </div>
-                            <span class="highlight-green font-mono">ACQUIS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"TOILETTE"</span>
-                                <p class="small-text text-muted m-0">Besoins à l'extérieur</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"AU PIED"</span>
-                                <p class="small-text text-muted m-0">Rappel de proximité (futur signal sonore)</p>
-                            </div>
-                            <span class="highlight-orange font-mono">À L'ÉTUDE</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-orange" style="font-size: 1.1rem;">"RAKAI"</span>
-                                <p class="small-text text-muted m-0">Identification du félin de la meute</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BALLE / JOUET"</span>
-                                <p class="small-text text-muted m-0">Objet ludique et redirection</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">ACQUIS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"PROMENADE"</span>
-                                <p class="small-text text-muted m-0">Sortie extérieure partagée avec Rakai</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"MAUVAISE IDÉE"</span>
-                                <p class="small-text text-muted m-0">Signal d'interruption avant redirection</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BISOUS"</span>
-                                <p class="small-text text-muted m-0">Léchage autorisé / Arrêt de la morsure</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <div>
-                                <span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"À TA PLACE"</span>
-                                <p class="small-text text-muted m-0">Aller sur le tapis pour le repos</p>
-                            </div>
-                            <span class="highlight-cyan font-mono">EN COURS</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"ATTENTION"</span>
-                                <p class="small-text text-muted m-0">Arrêt de sécurité (Route/Trottoir)</p>
-                            </div>
-                            <span class="highlight-orange font-mono">À L'ÉTUDE</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"TU LAISSES"</span>
-                                <p class="small-text text-muted m-0">Ignorer un objet ou de la nourriture</p>
-                            </div>
-                            <span class="highlight-orange font-mono">DÉCOUVERTE</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"REGARDE"</span>
-                                <p class="small-text text-muted m-0">Contact visuel de reconnexion</p>
-                            </div>
-                            <span class="highlight-orange font-mono">DÉCOUVERTE</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"TOUCHE"</span>
-                                <p class="small-text text-muted m-0">Ciblage de la main avec la truffe</p>
-                            </div>
-                            <span class="highlight-orange font-mono">DÉCOUVERTE</span>
-                        </div>
-
-                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
-                            <div>
-                                <span class="font-mono text-muted" style="font-size: 1.1rem;">"DONNE"</span>
-                                <p class="small-text text-muted m-0">Lâcher un objet en échange d'une récompense</p>
-                            </div>
-                            <span class="highlight-orange font-mono">DÉCOUVERTE</span>
-                        </div>
-
+                    <div class="lexicon-list" id="lexicon-grid">
+                        <!-- Généré dynamiquement par JS -->
                     </div>
                 </section>
-
             </main>
         </div>
     </div>
+
+    <!-- Chargement du module JavaScript externe -->
+    <script src="assets/js/education.js"></script>
 </body>
 </html>
