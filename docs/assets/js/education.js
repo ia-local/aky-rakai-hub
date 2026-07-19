@@ -81,15 +81,19 @@ function renderExercises() {
     gridContainer.innerHTML = ''; 
     appState.exercises.forEach((exo, index) => {
         gridContainer.innerHTML += `
-            <div class="card bg-surface border-standard radius-md p-sm">
-                <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
-                <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
-                <div class="progress-bar-container radius-sm bg-base mb-xs">
-                    <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+            <div class="card bg-surface border-standard radius-md p-sm flex-col justify-between">
+                <div>
+                    <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                    <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
                 </div>
-                <div class="hud-controls">
-                    <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
-                    <button class="hud-btn" onclick="incrementProgress('exercise', ${index})">[ + ]</button>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-base mb-xs">
+                        <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls">
+                        <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                        <button class="hud-btn" onclick="incrementProgress('exercise', ${index})">+</button>
+                    </div>
                 </div>
             </div>
         `;
@@ -114,7 +118,7 @@ function renderLexicon() {
                     </div>
                     <div class="hud-controls" style="margin-top: 4px;">
                         <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
-                        <button class="hud-btn" style="width: 40px; height: 20px; font-size: 0.8rem;" onclick="incrementProgress('lexicon', ${index})">[ + ]</button>
+                        <button class="hud-btn" onclick="incrementProgress('lexicon', ${index})">+</button>
                     </div>
                 </div>
             </div>

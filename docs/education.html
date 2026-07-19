@@ -8,24 +8,47 @@
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/resolve.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
-        .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
-        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
-        .hud-btn { 
-            background: transparent; border: 1px solid var(--color-accent-cyan); color: var(--color-accent-cyan); 
-            width: 28px; height: 28px; border-radius: 4px; cursor: pointer; font-family: 'Fira Code', monospace;
-            display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;
-        }
-        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
-        .auto-save-badge {
-            border: 1px solid var(--color-accent-green);
-            color: var(--color-accent-green);
-            padding: 4px 12px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-        }
-    </style>
+<style>
+    /* Composants de Grille */
+    .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+    .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+    
+    /* Contrôles HUD */
+    .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+    
+    /* Le fameux bouton corrigé */
+    .hud-btn { 
+        background: transparent; 
+        border: 1px solid var(--color-accent-cyan); 
+        color: var(--color-accent-cyan); 
+        width: 32px; 
+        height: 32px; 
+        border-radius: 4px; 
+        cursor: pointer; 
+        font-family: 'Fira Code', monospace;
+        font-size: 1.2rem; /* Taille du '+' augmentée */
+        font-weight: 600;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        transition: all 0.2s ease;
+    }
+    
+    /* Effet au survol et au clic (Mobile) */
+    .hud-btn:hover, .hud-btn:active { 
+        background: var(--color-accent-cyan); 
+        color: #000; 
+    }
+    
+    /* Badge de synchronisation */
+    .auto-save-badge {
+        border: 1px solid var(--color-accent-green);
+        color: var(--color-accent-green);
+        padding: 4px 12px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+</style>
 </head>
 <body class="hud-theme-dark bg-base text-main font-ui">
     <div class="app-container">

@@ -87,8 +87,8 @@
     {
       "word": "AU PIED",
       "desc": "Rappel de proximité (futur signal sonore)",
-      "progress": 10,
-      "color": "orange"
+      "progress": 30,
+      "color": "cyan"
     },
     {
       "word": "RAKAI",
@@ -147,13 +147,13 @@
     {
       "word": "TOUCHE",
       "desc": "Ciblage de la main avec la truffe",
-      "progress": 5,
+      "progress": 10,
       "color": "orange"
     },
     {
       "word": "DONNE",
       "desc": "Lâcher un objet en échange d'une récompense",
-      "progress": 5,
+      "progress": 10,
       "color": "orange"
     }
   ]
