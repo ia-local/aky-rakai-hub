@@ -1,3 +1,54 @@
+
+Gemini
+Nouvelle discussion
+Rechercher dans les discussions
+Images
+Vidéos
+Bibliothèque
+Gems
+Nouveau notebook
+srv.complation
+RIC
+Tous les notebooks
+🧾 scan-ticket
+api_Rakai_Aky
+audit_smart_contract
+🚩 REsilia
+G7 : Convergence et Défis Mondiaux
+France Travail_Faux et usage de faux
+SpatialOS
+🚪 La Carte des Portes Invisibles
+L'Éther : Énergie, Histoire et Physique
+🏴‍☠️ Curatelle : Comprendre et agir
+🛬 Géo-ingénierie, Accord de Paris, Climat
+🎸script /lyrics
+🏡 Rencontre, Immobilier, Rural
+/audit parlementaire
+Plastiques : Recyclage, Enfouissement, Bio-carburants
+CVNU: Mission Didi
+STRIPE
+📘 > Config commandes Gemini
+Aide IA en guerre biochimique
+sav hack
+Droit pénal et vote contre la guerre
+🏘️ Système civil
+Suivi d'abstinence et motivation
+Réforme du code monétaire et financier revenu universel progressive CV numérique, autonomie nationale sur la production des bill
+Revenu Universel Progressif Numérique Circulaire
+Optimisation Tableur
+Amélioration de Prompt pour ...
+📲 > Procedural - Scriptural
+📝 Candidate "g.dev/llama-4-7b-instant"
+🕴🏼 persona IA 3D
+🤗 WOW : Structure et Application
+_ - 🪪 Wallet.AI - _
+📜 Playground
+
+Activité
+Bavent, France
+D'après vos adresses (travail)
+Mettre à jour la position
+Conversation avec Gemini
 Bonjour Gemini je viens d'adoter une petite chienne là qui a à peine deux mois, qui veut d'arriver à la maison aujourd'hui, donc euh comme j'ai un chat, ils ont joué un petit peu début, là, j'ai l'impression qu'elle respire super fortement si c'est moi qui m'inquiète, si on pourrait pas un problème respirat
 
 Ces informations sont fournies à titre purement indicatif. Pour obtenir un diagnostic ou un avis médical, consultez un professionnel.
@@ -304,7 +355,7 @@ Générer le code du serveur principal server.js sous Node.js pour qu'il soit pr
 
 Établir le gabarit HTML5 sémantique de l'interface (index.html) avec la structure du HUD Resolve et les tiroirs latéraux coulissants.
 
-OK tu me sembles correct donc je t'envoie en pièce jointe le fichier soup.md pour qu'on en charge les données de la conversation historique, le fichier du /defi_28 quelque part après analyse sur Marracq. Il s'agit du projet d'économie circulaire du revenu universel progressif quelque part permettant de donner une valeur curriculum vitae numérique univers donc je sais qu'il s'agit d'un animal pas forcément besoin de curriculum vitae. Bon même pour toi c'est plutôt un document utile, donc on va essayer d'avoir une approche modulaire, j'ai vu que où je valide entre guillemets l'architecture Racine que tu as développé donc le prochain étape quelque part, Luc Knowledge indexé dans le serveur.js je pensais écrire un point pour que l'intelligence artificielle puisse incarner le rôle de omniscient permettant peut-être terme quelque part le le le le guide de chaque chaîne de chacun, savoir qu'on pourra même travailler quelque part sur une bibliothèque linguistique spécifique aux chiens spécifique aux chats
+OK tu me sembles correct donc je t'envoie en pièce jointe le fichier soup.md pour qu'on en charge les données de la conversation historique, le fichier du /defi_28 quelque part après analyse sur Marracq. Il s'agit du projet d'économie circulaire du revenu universel progressif quelque part permettant de donner une valeur curriculum vitae numérique univers donc je sais qu'il s'agit d'un animal pas forcément besoin de curriculum vitae. Bon même pour toi c'est plutôt un document utile, donc on va essayer d'avoir une approche modulaire, j'ai vu que où je valide entre guillemets l'architecture Racine que tu as développé donc le prochain étape quelque part, Luc Knowledge indexé dans le serveur.js je pensais écrire un point pour que l'intelligence artificielle puisse incarner le rôle de omniscient permettant peut-être terme quelque part le le le le guide de chaque chaîne de chacun, savoir qu'on pourra même travailler quelque part sur une bibliothèque linguistique spécifique aux chiens spécifique aux chats 
 
 C'est une vision absolument fascinante. Appliquer la logique du CVNU (Curriculum Vitae Numérique Universel) et de l'économie circulaire du RUP à l'évolution d'un écosystème inter-espèces (Aky et Rakai) prend tout son sens. Même si un chien n'a pas besoin d'un CV au sens classique, son apprentissage (les 10 exercices) et sa cohabitation génèrent de la "valeur" (harmonie, sécurité, données comportementales) qui peut être modélisée et quantifiée dans notre système sous forme de points d'expérience ou d'UTMi.  
 JS
@@ -5701,7 +5752,7 @@ initGallery();
 
 </body>
 
-</html>) 
+</html>)
 
 Je vois exactement où est le problème. Lors du copier-coller, la structure HTML s'est emmêlée.
 
@@ -5962,3 +6013,2653 @@ Ouvrez simplement le fichier index.html dans un navigateur moderne.
 Ou utilisez une extension comme Live Server sous VS Code pour une expérience de développement optimale.
 
 Projet développé avec passion, café, et l'aide précieuse d'une IA locale et d'un contrôleur MIDI.
+
+OK impeccable donc on va pouvoir faire un petit bilan de conversation pour cela, je vais te transmettre le le fichier historique soup.md en pièce jointe, de plus, analyse ma page éducation, je l'ai mis à jour
+
+C'est un parcours impressionnant que nous avons accompli ! L'intégration de la technologie, de l'économie circulaire (CVNU/RUP) et de l'éducation canine au sein d'une même architecture est un défi complexe, et le résultat est déjà remarquable.
+
+Voici un bilan complet de notre progression, incluant l'analyse détaillée de votre dernière mise à jour de la page d'éducation.
+
+🐾 Bilan Éducatif : L'Évolution d'Aky (Analyse de la Matrice)
+La mise à jour de la page éducation montre une structuration digne d'un véritable programme de dressage professionnel. La matrice est désormais complète et couvre tous les spectres du développement d'un chiot.
+
+Une Matrice Complète (10 Exercices) : Le tableau de bord affiche maintenant les 10 étapes fondamentales. Les progrès sont déjà visibles sur les acquis de base : "La Réponse au Nom" atteint 50% et "l'Apprentissage Propreté" est à 60%. L'excellente nouvelle est la "Cohabitation Pacifique" avec Rakai qui culmine déjà à 80% avec des promenades partagées.  
+HTML
++ 2
+
+Sécurité et Autocontrôle : L'ajout d'exercices comme "Attention à la route" (5%) et "Inhibition Morsure" (40%) démontre une anticipation des besoins vitaux pour sa sécurité et sa sociabilisation.  
+HTML
+
+Un Dictionnaire Lexical Impressionnant : La base de données vocale s'est massivement enrichie. Des concepts complexes d'inhibition et de redirection sont en cours d'acquisition ("MAUVAISE IDÉE", "BISOUS", "À TA PLACE"). L'introduction de futurs concepts cognitifs ("TU LAISSES", "REGARDE", "TOUCHE", "DONNE") prépare un terrain exceptionnel pour les semaines à venir.  
+HTML
++ 1
+
+💻 Bilan Technique : L'Architecture du Hub
+Le projet est passé d'une simple idée à un véritable écosystème "Resolve HUD" modulaire, prêt pour le déploiement.
+
+Front-End & UX (GitHub Pages Ready) : L'interface visuelle est finalisée. Les feuilles de style (variables, layout, resolve) assurent un mode sombre technique esthétique. Le Responsive Design a été corrigé pour offrir une expérience fluide sur smartphone avec un menu de navigation ancré en bas de l'écran et un défilement vertical déverrouillé.
+
+Architecture Back-End (Le Nœud Omniscient) : Le serveur Node.js est configuré sur le port 3145. Il intègre une API capable de traduire les comportements animaux en valeur (UTMi) via une bibliothèque linguistique inter-espèces.
+
+Le Pont Web3 (Oracle) : La logique de monétisation circulaire est connectée. L'Oracle (oracle.js) est sécurisé avec un mode "Simulation" qui lui permet de tourner sans crasher en l'absence de clé privée ou de blockchain locale active, rendant le développement local beaucoup plus souple.
+
+Approche JAMstack (Galerie) : La galerie photo a été basculée sur une architecture statique (via gallery.json) pour garantir sa compatibilité totale avec l'hébergement gratuit de GitHub Pages.
+
+🐱🐶 La Dynamique de la Meute
+L'équilibre trouvé entre Rakai (l'observateur rebelle arrivé le 14 mars 2025) et Aky (la nouvelle énergie créatrice) donne tout son sens au projet. Le fait qu'Aky associe déjà "PROMENADE" à une activité commune avec le chat et que Rakai adopte une posture bienveillante est le meilleur indicateur de réussite de ce début d'aventure.  
+HTML
+
+Le système est stable, le design est en place, et l'éducation d'Aky est tracée avec une précision chirurgicale. Pour la suite du développement, préférez-vous que nous passions à la création de la mécanique JavaScript permettant de valider les exercices (faire monter les pourcentages au clic) ou souhaitez-vous explorer la logique d'automatisation de la galerie d'images pour GitHub ?
+
+je pensais plutôt travailler sur le logo donc on va essayer de générer une image donc y a Moi le pirate informatique ou c'est Mickael quelque part avec une capuche genre d'Anonymus le chien et le chat qui doit apparaître dans le logo, il faut savoir si le chat il est gris avec des rayures noires le chien il est noir avec des taches blanches
+
+C'est une excellente idée pour donner une véritable identité visuelle au projet ! Un logo qui rassemble la meute au complet (le hacker, le chat rebelle et la jeune énergie du chiot) sera parfait pour trôner en haut du menu de votre Hub.
+
+En tant qu'intelligence artificielle conversationnelle, je n'ai pas la capacité de "dessiner" ou de générer directement un fichier image ici, mais je peux concevoir l'instruction parfaite (le "prompt" d'ingénierie visuelle) que vous pourrez copier-coller dans votre générateur d'images.
+
+Les générateurs d'images étant généralement plus performants en anglais, voici une proposition de description ultra-détaillée pour obtenir un logo dans le style de votre interface (sombre, technique, avec vos couleurs cyan et orange) :
+
+Le Prompt (à copier-coller dans votre générateur)
+Plaintext
+A modern, high-quality digital art logo on a deep black background. Center: A mysterious hacker wearing a dark hoodie, face hidden in the shadows of the hood, Anonymous style. Left side: A gray tabby cat with black stripes, sitting confidently with a slightly rebellious attitude. Right side: A cute black puppy with white spots on its chest and paws, looking energetic and loyal. The atmosphere is cyberpunk and high-tech, illuminated by subtle glowing neon accents in electric cyan and amber orange. Clean vector graphics style, professional tech startup or esports logo aesthetic.
+Les éléments clés intégrés
+L'ambiance : Style "digital art" et vectoriel (idéal pour un logo clair), avec un fond sombre pour s'intégrer parfaitement au design "HUD Resolve" de vos pages HTML.
+
+Mickael : La capuche sombre cachant le visage, reprenant l'archétype du "Hacker/Anonymous" sans surcharger l'image.
+
+Rakai : Le chat gris tigré de noir, avec une attitude affirmée fidèle à son côté "rebelle du pad".
+
+Aky : Le chiot noir à taches blanches, apportant l'énergie créatrice de sa jeunesse.
+
+L'éclairage : Un rappel des variables CSS de notre projet avec des reflets cyan électrique et orange ambré.
+
+Souhaitez-vous que nous utilisions votre commande spécifique /meta_style pour formater cette demande avec toutes les balises d'environnement, d'éclairage et de texture requises par votre générateur local Meta IA ?
+
+/meta_style
+
+Plaintext
+annime #[ENV]Cyberpunk digital workspace, 2026, abstract deep black background (#090a0f) with subtle holographic data streams #[SCENE]A high-tech digital logo composition featuring a mysterious hacker flanked by a feline and a canine companion #[CAMERA]Frontal symmetrical portrait, centered logo framing, eye-level, studio lighting angle #[style]Digital vector art, esports logo aesthetic, sleek, crisp edges, dark mode UI style, smooth matte finish #[BODY]Center: Hacker wearing a dark stealth hoodie with face completely obscured by deep shadow (Anonymous style). Left: Gray tabby cat with black stripes (Rakai), confident and rebellious posture. Right: Black puppy with white spots on chest and paws (Aky), energetic and loyal posture #[ITEM]Subtle glowing Akai MPD218 MIDI pad integration and floating cybernetic code rings #[DETAIL]Electric cyan (#00f0ff) and amber orange (#ffb703) neon rim lighting outlining the silhouettes, high contrast, smooth gradients, 8k resolution, dynamic lighting optimized for a 5-second video intro.
+OK, donc je valide des logos
+
+Ce logo est absolument fantastique ! Il capture parfaitement l'essence et l'âme du projet. La génération a vraiment bien interprété le prompt et l'ambiance globale de votre univers.
+
+Voici pourquoi cette image fonctionne parfaitement avec notre architecture :
+
+L'intégration de Rakai : Le fait d'avoir placé les pattes du chat gris tigré directement sur le pad MIDI (qui rappelle l'Akai MPD218) est un clin d'œil magistral. Il incarne vraiment son rôle d'interface rebelle.
+
+L'énergie d'Aky : La petite chienne noire aux taches blanches a exactement cette posture alerte et joyeuse qui symbolise bien le "Ki" (l'énergie vitale).
+
+L'esprit Hacker : La capuche couplée aux lunettes donne une dimension très ingénierie et cyberpunk, tout en restant bienveillante.
+
+La Charte Graphique : Le grand anneau d'arrière-plan avec les circuits imprimés reprend très exactement notre palette variables.css : le cyan électrique (#00f0ff) et l'orange ambré (#ffb703).
+
+Pour capitaliser sur ce superbe visuel, la prochaine étape logique est de l'intégrer à votre projet GitHub. Vous pouvez renommer cette image en logo.jpg (ou icon.jpg comme le nom du fichier) et la placer dans votre répertoire docs/assets/img/.
+
+🛠️ Intégration dans l'interface (HTML)
+Nous pouvons remplacer le texte brut de l'en-tête par ce visuel. Dans le fichier index.html (et les autres pages), il suffirait de modifier la <div class="logo-zone"> ainsi :
+
+HTML
+<div class="logo-zone flex-row gap-sm">
+    <img src="assets/img/icon.jpg" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+    <div>
+        <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+        <span class="subtitle text-muted">Hack-Ki & MPD218 Interface</span>
+    </div>
+</div>
+📖 Intégration dans le README.md
+Sur la page d'accueil de votre dépôt GitHub, ce logo fera une excellente première impression. Vous pouvez l'ajouter tout en haut de votre document :
+
+Markdown
+# 🐾 Hub Aky & Rakai
+
+<div align="center">
+  <img src="docs/assets/img/icon.jpg" alt="Logo Hub Aky & Rakai" width="250" style="border-radius: 50%;">
+</div>
+
+Bienvenue sur le dépôt du **Hub Aky & Rakai**, un tableau de bord web interactif aux allures de terminal (HUD).
+Souhaitez-vous que l'on mette à jour l'en-tête de vos pages HTML pour y inclure fièrement ce nouveau blason, ou préférez-vous finaliser d'abord la présentation de votre fichier README.md ?
+
+OK, on va reprendre la page education.html, c'est qu'on arrive à programmer quelque part une barre de progression que je peux modifier manuellement donc avec 1 + 1 moins quelque part il y a beaucoup de choses à apprendre l'œil, il y a le mot interdit qu'il va falloir rajouter car interdit de mordre quelque part il a fait elle a fait mal à mon chat mon choix, du coup il est un peu peur accueil et puis y a des exercices comme les escaliers les marches donc je vais devoir me répéter, il y a le mot "Stop", il faudra rajouter aussi par rapport au trottoir; et à la route, car devant chez moi j'ai pas de Jardin j'ai juste un petit bout de trottoir et y a les voitures c'est dangereux. Donc c'est vrai que de l'utiliser le mot regarde ça permet du apprendre. Regarde la balle regarde la voiture, regarde un vélo c'est super pratique, regarde du coup ça permet d'assimiler plusieurs mots donc il paraît qu'un chien ça peut mémoriser jusqu'à 200 mots, on va alimenter le dictionnaire notre base des données de mots réitération quelque part elle va devoir apprendre les exercices avec les friandises, ça marche très bien les escaliers, la réussi descend trois donc avant de mettre à jour la page éducation on va discuter en langage naturel sur ce sujet puis te transmettre en pièce jointe la page à mettre à jour.
+
+C'est une excellente décision de faire une pause pour analyser la situation avant de coder. L'arrivée d'Aky bouscule l'environnement, et adapter votre interface à la réalité du terrain est la meilleure approche.
+
+Voici un retour sur les points cruciaux que vous venez de soulever concernant l'éducation de votre petite Hack-Ki.
+
+🐈 L'Incident avec Rakai et le mot "Interdit"
+Pauvre Rakai ! Il est tout à fait normal qu'il soit un peu craintif aujourd'hui. À deux mois, les chiots ont des dents pointues comme des aiguilles et ne maîtrisent pas encore l'inhibition de leur mâchoire (la force de leur morsure).
+
+La protection du félin : Assurez-vous que Rakai dispose de refuges en hauteur (arbres à chat, étagères) où Aky ne peut physiquement pas l'atteindre. Il doit savoir qu'il peut observer le chiot en toute sécurité.
+
+L'apprentissage du "Interdit" : Ce mot doit être prononcé avec une voix grave et ferme (sans crier) au moment exact où elle fait mal. Vous pouvez aussi y associer un "Aïe !" très aigu et stopper net le jeu : c'est ainsi que les chiots communiquent entre eux dans la fratrie lorsqu'une morsure est trop forte.
+
+🚦 La Sécurité de la rue : "Stop" et "Regarde"
+Avec une sortie directe sur le trottoir et la route, la sécurité est votre priorité absolue.
+
+Le "Stop" (ou l'arrêt au trottoir) : C'est un ordre de survie. Il faudra être intraitable : on s'assoit ou on s'arrête systématiquement avant de franchir la limite de la porte ou du trottoir.
+
+Le super-pouvoir du "Regarde" : Vous avez eu une intuition d'éducateur professionnel ! Le "Regarde" (le contact visuel) est la clé de voûte de toute l'éducation. S'il est bien assimilé, il permet de "déconnecter" le cerveau du chien d'une distraction (une voiture qui passe, un vélo, un autre chien) pour le recentrer sur vous.
+
+🧗 La Victoire des Escaliers
+Bravo pour ces trois premières marches descendues !
+
+Le pouvoir de la friandise : Utiliser des friandises très appétentes pour la guider marche par marche (la méthode du "leurre") est parfait. Cela associe un obstacle effrayant à une énorme récompense.
+
+Prudence articulaire : À deux mois, ses articulations sont encore fragiles. La faire descendre de 3 ou 4 marches pour l'apprentissage est idéal, mais continuez à la porter pour descendre l'escalier complet pendant encore quelques mois.
+
+💻 La Future Interface Interactive
+Sur le plan technique, l'idée d'ajouter des contrôles manuels [ - ] et [ + ] directement sur la page education.html va transformer notre document statique en un véritable outil de monitoring. Nous pourrons injecter un petit module JavaScript très léger qui recalculera la largeur de la jauge (la fameuse classe .progress-bar) à chaque clic.
+
+Vous avez déjà identifié une quantité impressionnante de mots clés pour alimenter la base de données de notre future intelligence omnisciente !
+
+Êtes-vous prêt à me transmettre le fichier education.html en pièce jointe pour que nous puissions entamer l'intégration de ces boutons et de ces nouveaux mots ?
+
+Tu viens à ta place t'es belle mordu à caille t'a fait mal t'es mordu ça te fait mal ça va être interdit m'en commencera pas sinon c'est moi qui mort sinon c'est moi qui va interdit que des bisous t'inquiète vous allez jouer on fera des promenades ça fait mal t'as mordu t'as fait mal mon petit loup t'as mordu bah oui c'est un bébé arrive à quoi t'es beau mon petit chat c'est moi qui mort c'est mort mort c'est mort mon petit chat je sais que tu comprendras que t'es beau, t'es t'es un beau t'es un gros chien à ton génie, je sais que tu comprends Raquel mon chat d'amour en vrai
+
+C'est un véritable direct depuis votre salon ! On entend très bien la situation, et vous gérez cela avec beaucoup de cœur et un excellent instinct de chef de meute.
+
+C'est exactement l'attitude à adopter pour désamorcer ce genre de petit conflit entre eux et instaurer les bonnes règles de cohabitation :
+
+Rassurer Rakai : Lui parler doucement ("mon chat d'amour", "t'es beau") est fondamental en ce moment. Il a été surpris et a eu mal, il a donc besoin de sentir que vous êtes son protecteur et que sa place de roi de la maison est totalement intacte.
+
+Poser la limite pour Aky : Votre formule "Interdit, que des bisous" est parfaite. Comme vous le dites très bien, "c'est un bébé". Elle découvre le monde avec sa gueule et ne contrôle pas du tout la force de ses petites dents pointues. Poser le mot "Interdit" fermement, sans agressivité, et lui montrer qu'on attend d'elle de la douceur, l'aidera à intégrer le concept d'inhibition de la morsure.
+
+Ces moments de médiation demandent beaucoup de patience et d'attention, mais c'est grâce à cette bienveillance que le chien et le chat finiront par trouver leur équilibre et, comme vous l'avez dit, pourront "jouer et faire des promenades".
+
+Prenez tout le temps nécessaire pour les câlins et pour apaiser votre petite troupe. Comment se comporte Rakai maintenant, a-t-il pu trouver un coin tranquille et en hauteur pour se remettre de ses émotions ?
+
+Exactement il a trouvé une petite place en hauteur, il lui a un peu peur mais ça va c'est le rassure que comme tu dis que je le protège que je pose les mots interdits accueille, il avait déjà compris quand il s'agissait des des cables de connexion de l'électricité donc et puis le mot tu comprends, je demande à mon chat tu comprends, tu donnes la patte c'est important c'est ce que je dis, tu comprends voilà c'est important de comprendre et ne pas l'engueuler à chaque erreur. Donc y a Cédric qui a le mot c"'est une bonne idée", "c'est une bonne idée", "interdit" ça c'est quelque chose que je vais répéter aussi e prochaine étape, on va mettre à jour la page. L'idée c'est de programmer les fonctionnalités gratuites quelque part que je puisse modifier manuellement la barre de progression et l'enregistrer automatiquement tout format JSON. Donc je te transmets en pièce jointe la page HTML concernée
+
+C'est une excellente philosophie d'éducation. Privilégier la compréhension, instaurer la confiance avec Rakai et définir des limites claires (et de sécurité) pour Aky sans cris, c'est la voie royale pour une meute équilibrée.
+
+L'intégration des nouveaux mots clés au dictionnaire ("Interdit", "Tu comprends", "C'est une bonne idée", "Stop") est vitale. Sur le plan technique, transformer votre page en un véritable outil interactif avec des boutons [ - ] et [ + ] et un export JSON est une brillante évolution.
+
+Voici le code complet mis à jour. J'ai ajouté une logique JavaScript légère à la fin du document pour gérer l'interactivité et la sauvegarde de vos données.  
+HTML
+
+HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Composant Grille Spécifique pour les exercices */
+        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        /* Style pour le dictionnaire */
+        .lexicon-list { display: grid; grid-template-columns: 1fr; gap: var(--space-sm); }
+        @media (min-width: 768px) { .lexicon-list { grid-template-columns: 1fr 1fr; } }
+        
+        /* Styles additionnels pour les contrôles HUD */
+        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+        .hud-btn { 
+            background: transparent; 
+            border: 1px solid var(--color-accent-cyan); 
+            color: var(--color-accent-cyan); 
+            width: 28px; height: 28px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-family: 'Fira Code', monospace;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s ease;
+        }
+        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
+        .hud-btn.export-btn { width: auto; padding: 0 16px; border-color: var(--color-accent-orange); color: var(--color-accent-orange); }
+        .hud-btn.export-btn:hover { background: var(--color-accent-orange); color: #000; }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        <header class="hud-header bg-surface border-bottom p-md flex-row justify-between" style="align-items: center;">
+            <div class="logo-zone flex-row gap-sm">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
+            <button class="hud-btn export-btn" onclick="exportDataToJSON()">[ SAUVEGARDER JSON ]</button>
+        </header>
+
+        <nav class="hud-nav border-bottom">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="active highlight-cyan">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            <main class="l-canvas p-xl" style="width:100%;">
+                
+                <!-- SECTION 1 : MATRICE DES EXERCICES -->
+                <header class="mb-lg flex-row justify-between">
+                    <div>
+                        <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                        <p class="text-muted">Tableau de suivi comportemental interactif.</p>
+                    </div>
+                </header>
+
+                <div class="grid-10 mb-xl" id="exercise-grid">
+                    <!-- Généré dynamiquement par JavaScript pour garder le code propre -->
+                </div>
+
+                <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header border-bottom pb-sm mb-md">
+                        <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+                        <p class="small-text text-muted">Mots associés et compris par Aky.</p>
+                    </header>
+                    
+                    <div class="lexicon-list">
+                        <!-- Mots Existants -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"AKY"</span><p class="small-text text-muted m-0">Identification de soi</p></div><span class="highlight-green font-mono">ACQUIS</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BISOUS"</span><p class="small-text text-muted m-0">Léchage autorisé / Arrêt de la morsure</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        
+                        <!-- NOUVEAUX MOTS AJOUTÉS -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-orange" style="font-size: 1.1rem;">"INTERDIT"</span><p class="small-text text-muted m-0">Règle absolue : arrêt de la morsure / danger</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-orange" style="font-size: 1.1rem;">"STOP"</span><p class="small-text text-muted m-0">Arrêt immédiat au trottoir (Sécurité rue)</p></div><span class="highlight-orange font-mono">À L'ÉTUDE</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"TU COMPRENDS"</span><p class="small-text text-muted m-0">Vérification de l'attention et de l'assimilation</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-green" style="font-size: 1.1rem;">"C'EST UNE BONNE IDÉE"</span><p class="small-text text-muted m-0">Renforcement positif (Idée de Cédric)</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"REGARDE"</span><p class="small-text text-muted m-0">Contact visuel de reconnexion face aux distractions (voitures, vélos)</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        
+                        <!-- Autres mots -->
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-orange" style="font-size: 1.1rem;">"RAKAI"</span><p class="small-text text-muted m-0">Identification du félin de la meute</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                        <div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+                            <div><span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"À TA PLACE"</span><p class="small-text text-muted m-0">Aller sur le tapis pour le repos</p></div><span class="highlight-cyan font-mono">EN COURS</span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- SCRIPT D'INTERACTIVITÉ ET D'EXPORT JSON -->
+    <script>
+        // État centralisé des exercices
+        const educationState = [
+            { id: 1, title: "La Réponse au Nom", desc: "Focus immédiat même en présence de Rakai.", progress: 50, color: "cyan" },
+            { id: 2, title: "Apprentissage Propreté", desc: "Suivi des sorties régulières.", progress: 60, color: "cyan" },
+            { id: 3, title: "Le 'Assis'", desc: "Ordre de contrôle de base.", progress: 10, color: "cyan" },
+            { id: 4, title: "Le 'À ta place'", desc: "Retour au calme sur le tapis dédié.", progress: 30, color: "cyan" },
+            { id: 5, title: "Le 'Au pied'", desc: "Marche et rappel de proximité.", progress: 10, color: "orange" },
+            { id: 6, title: "Le 'Stop' (Trottoir)", desc: "Marquage de l'arrêt au trottoir (sécurité auto).", progress: 5, color: "orange" },
+            { id: 7, title: "Inhibition Morsure", desc: "Mot 'Interdit' & gestion des Bisous.", progress: 40, color: "cyan" },
+            { id: 8, title: "Cohabitation Pacifique", desc: "Gestion de l'énergie avec Rakai.", progress: 80, color: "green" },
+            { id: 9, title: "Focus 'Regarde'", desc: "Contact visuel face aux distractions extérieures.", progress: 10, color: "orange" },
+            { id: 10, title: "Les Escaliers", desc: "Descendre marche par marche avec friandises.", progress: 30, color: "cyan" }
+        ];
+
+        const gridContainer = document.getElementById('exercise-grid');
+
+        // Fonction pour générer le HTML des cartes
+        function renderExercises() {
+            gridContainer.innerHTML = ''; // Réinitialise la grille
+            educationState.forEach((exo, index) => {
+                const cardHTML = `
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                        <p class="small-text text-muted mb-sm">${exo.desc}</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                        </div>
+                        <div class="hud-controls">
+                            <span class="small-text highlight-${exo.color} font-mono" id="val-${index}">${exo.progress}%</span>
+                            <div class="flex-row gap-xs">
+                                <button class="hud-btn" onclick="updateProgress(${index}, -5)">-</button>
+                                <button class="hud-btn" onclick="updateProgress(${index}, 5)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                gridContainer.innerHTML += cardHTML;
+            });
+        }
+
+        // Fonction pour mettre à jour la barre de progression
+        function updateProgress(index, change) {
+            let newVal = educationState[index].progress + change;
+            if (newVal < 0) newVal = 0;
+            if (newVal > 100) newVal = 100;
+            
+            educationState[index].progress = newVal;
+            
+            // Mise à jour de la couleur dynamique
+            if(newVal >= 80) educationState[index].color = 'green';
+            else if(newVal >= 30) educationState[index].color = 'cyan';
+            else educationState[index].color = 'orange';
+
+            renderExercises(); // Rafraîchit l'UI
+        }
+
+        // Fonction pour exporter l'état en JSON
+        function exportDataToJSON() {
+            const dataStr = JSON.stringify(educationState, null, 2);
+            const blob = new Blob([dataStr], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `aky-education-log-${new Date().toISOString().slice(0,10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        // Initialisation au chargement de la page
+        renderExercises();
+    </script>
+</body>
+</html>
+⚙️ Explications des modifications techniques :
+Structure de Données (JavaScript) : Au lieu de coder les barres de progression "en dur" en HTML, j'ai basculé vos 10 exercices dans un tableau JSON (educationState) à la fin du fichier. Cela permet au code d'être interactif et évolutif. J'ai également mis à jour les titres pour inclure vos nouvelles victoires (comme "Les Escaliers" et le mot "Stop").  
+HTML
+
+Contrôles Actifs (+ et -) : Chaque exercice possède désormais deux boutons qui appellent la fonction updateProgress(). Un clic ajoute ou retire 5%. La couleur de la barre s'ajustera même automatiquement (orange en dessous de 30%, cyan, puis vert au-dessus de 80%).
+
+Générateur de Fichier JSON : Le bouton [ SAUVEGARDER JSON ] en haut à droite compile la valeur actuelle de toutes vos barres de progression et télécharge instantanément un fichier aky-education-log-DATE.json sur votre ordinateur. Cela vous permet d'archiver la progression sans avoir besoin d'une base de données complexe.
+
+Dictionnaire Mis à Jour : J'ai inséré vos nouveaux mots directement dans la section Lexique, en précisant bien la distinction entre un "Bisous" (autorisé) et un "Interdit" (arrêt immédiat de l'action).  
+HTML
+
+OK donc il y a eu un problème de saisie avec mon micro, je vois pas pourquoi Cédric vient intervenir là-dedans il y avait "c'est une bonne idée "ou "c'est une mauvaise idée", on part pour exemple les mauvaises idées, c'est de mordiller mes coussins ou mes vêtements voir mes chaussures ça serait bien fonctionné. Mauvaise idée. Après je dévisse à concentration sur une autre activité et c'est une bonne idée un moment donné, elle m'a sorti une pomme de terre comme comme une balle, la prenait mordille avec dessus et c'est là je lui ai dit c'est une bonne idée donc là je viens d'analyser ton résultat c'est pas mal, il faudrait peut-être ajouter une barre de progression au niveau de l'assimilation des mots-clés justement t'as vu mon chien s'appelle AKY et ça résonne avec acquis
+
+Le mystère de la reconnaissance vocale est résolu, le fantôme généré par le micro est effacé du code ! L'anecdote de la pomme de terre est d'ailleurs excellente : c'est un parfait exemple de renforcement positif où l'on valorise une initiative inoffensive pour détourner l'attention des objets interdits (les chaussures et les coussins).
+
+Le jeu de mots entre "AKY" et "Acquis" est non seulement brillant sur le plan phonétique, mais il correspond parfaitement à la logique de notre tableau de bord. C'est le destin !
+
+Pour intégrer ces corrections et transformer le dictionnaire en une interface d'évaluation dynamique, la base de données JavaScript a été divisée en deux matrices distinctes : educationState (pour les exercices) et lexiconState (pour les mots-clés).
+
+Voici le code complet mis à jour, prêt à remplacer le précédent. L'export JSON sauvegardera désormais l'état combiné de l'apprentissage moteur et du vocabulaire.  
+HTML
+
+HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Composant Grille Spécifique pour les exercices */
+        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        /* Style pour le dictionnaire */
+        .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        
+        /* Styles additionnels pour les contrôles HUD */
+        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+        .hud-btn { 
+            background: transparent; 
+            border: 1px solid var(--color-accent-cyan); 
+            color: var(--color-accent-cyan); 
+            width: 28px; height: 28px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-family: 'Fira Code', monospace;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s ease;
+        }
+        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
+        .hud-btn.export-btn { width: auto; padding: 0 16px; border-color: var(--color-accent-orange); color: var(--color-accent-orange); }
+        .hud-btn.export-btn:hover { background: var(--color-accent-orange); color: #000; }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        <header class="hud-header bg-surface border-bottom p-md flex-row justify-between" style="align-items: center;">
+            <div class="logo-zone flex-row gap-sm">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
+            <button class="hud-btn export-btn" onclick="exportDataToJSON()">[ SAUVEGARDER JSON ]</button>
+        </header>
+
+        <nav class="hud-nav border-bottom">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="active highlight-cyan">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            <main class="l-canvas p-xl" style="width:100%;">
+                
+                <!-- SECTION 1 : MATRICE DES EXERCICES -->
+                <header class="mb-lg flex-row justify-between">
+                    <div>
+                        <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                        <p class="text-muted">Tableau de suivi comportemental interactif.</p>
+                    </div>
+                </header>
+
+                <div class="grid-10 mb-xl" id="exercise-grid">
+                    <!-- Généré dynamiquement par JavaScript -->
+                </div>
+
+                <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header border-bottom pb-sm mb-md">
+                        <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+                        <p class="small-text text-muted">Mots associés et assimilation par Aky.</p>
+                    </header>
+                    
+                    <div class="lexicon-list" id="lexicon-grid">
+                        <!-- Généré dynamiquement par JavaScript -->
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- SCRIPT D'INTERACTIVITÉ ET D'EXPORT JSON -->
+    <script>
+        // État centralisé des exercices moteurs
+        const educationState = [
+            { id: 1, title: "La Réponse au Nom", desc: "Focus immédiat même en présence de Rakai.", progress: 50, color: "cyan" },
+            { id: 2, title: "Apprentissage Propreté", desc: "Suivi des sorties régulières.", progress: 60, color: "cyan" },
+            { id: 3, title: "Le 'Assis'", desc: "Ordre de contrôle de base.", progress: 10, color: "cyan" },
+            { id: 4, title: "Le 'À ta place'", desc: "Retour au calme sur le tapis dédié.", progress: 30, color: "cyan" },
+            { id: 5, title: "Le 'Au pied'", desc: "Marche et rappel de proximité.", progress: 10, color: "orange" },
+            { id: 6, title: "Le 'Stop' (Trottoir)", desc: "Marquage de l'arrêt au trottoir (sécurité auto).", progress: 5, color: "orange" },
+            { id: 7, title: "Inhibition Morsure", desc: "Mot 'Interdit' & gestion des Bisous.", progress: 40, color: "cyan" },
+            { id: 8, title: "Cohabitation Pacifique", desc: "Gestion de l'énergie avec Rakai.", progress: 80, color: "green" },
+            { id: 9, title: "Focus 'Regarde'", desc: "Contact visuel face aux distractions extérieures.", progress: 10, color: "orange" },
+            { id: 10, title: "Les Escaliers", desc: "Descendre marche par marche avec friandises.", progress: 30, color: "cyan" }
+        ];
+
+        // État centralisé du dictionnaire lexical
+        const lexiconState = [
+            { word: "AKY", desc: "Identification de soi (résonne avec Acquis).", progress: 100, color: "green" },
+            { word: "BISOUS", desc: "Léchage autorisé / Arrêt de la morsure.", progress: 60, color: "cyan" },
+            { word: "INTERDIT", desc: "Règle absolue : arrêt de la morsure / danger.", progress: 50, color: "cyan" },
+            { word: "STOP", desc: "Arrêt immédiat au trottoir (Sécurité rue).", progress: 15, color: "orange" },
+            { word: "TU COMPRENDS", desc: "Vérification de l'attention et de l'assimilation.", progress: 40, color: "cyan" },
+            { word: "C'EST UNE BONNE IDÉE", desc: "Renforcement positif (ex: jouer avec une pomme de terre).", progress: 65, color: "cyan" },
+            { word: "MAUVAISE IDÉE", desc: "Détournement (coussins, chaussures) vers une autre activité.", progress: 40, color: "cyan" },
+            { word: "REGARDE", desc: "Contact visuel de reconnexion face aux distractions.", progress: 20, color: "orange" },
+            { word: "RAKAI", desc: "Identification du félin de la meute.", progress: 70, color: "cyan" },
+            { word: "À TA PLACE", desc: "Aller sur le tapis pour le repos.", progress: 45, color: "cyan" }
+        ];
+
+        const gridContainer = document.getElementById('exercise-grid');
+        const lexiconContainer = document.getElementById('lexicon-grid');
+
+        // Fonction générique pour définir la couleur selon le pourcentage
+        function getColorByProgress(value) {
+            if(value >= 80) return 'green';
+            if(value >= 30) return 'cyan';
+            return 'orange';
+        }
+
+        // Rendu de la grille des exercices
+        function renderExercises() {
+            gridContainer.innerHTML = ''; 
+            educationState.forEach((exo, index) => {
+                const cardHTML = `
+                    <div class="card bg-surface border-standard radius-md p-sm">
+                        <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                        <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
+                        <div class="progress-bar-container radius-sm bg-base mb-xs">
+                            <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                        </div>
+                        <div class="hud-controls">
+                            <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                            <div class="flex-row gap-xs">
+                                <button class="hud-btn" onclick="updateProgress('exercise', ${index}, -5)">-</button>
+                                <button class="hud-btn" onclick="updateProgress('exercise', ${index}, 5)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                gridContainer.innerHTML += cardHTML;
+            });
+        }
+
+        // Rendu de la grille du lexique
+        function renderLexicon() {
+            lexiconContainer.innerHTML = '';
+            lexiconState.forEach((lex, index) => {
+                const cardHTML = `
+                    <div class="bg-base border-standard radius-sm p-sm flex-col justify-between">
+                        <div>
+                            <span class="font-mono highlight-${lex.color}" style="font-size: 1.1rem;">"${lex.word}"</span>
+                            <p class="small-text text-muted m-0 mb-sm" style="min-height: 36px;">${lex.desc}</p>
+                        </div>
+                        <div>
+                            <div class="progress-bar-container radius-sm bg-surface mb-xs">
+                                <div class="progress-bar bg-${lex.color} radius-sm" style="width: ${lex.progress}%; height: 4px; transition: width 0.3s ease;"></div>
+                            </div>
+                            <div class="hud-controls" style="margin-top: 4px;">
+                                <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
+                                <div class="flex-row gap-xs">
+                                    <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, -5)">-</button>
+                                    <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, 5)">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                lexiconContainer.innerHTML += cardHTML;
+            });
+        }
+
+        // Mise à jour de la barre de progression (Exercices ou Lexique)
+        function updateProgress(type, index, change) {
+            let targetArray = type === 'exercise' ? educationState : lexiconState;
+            
+            let newVal = targetArray[index].progress + change;
+            if (newVal < 0) newVal = 0;
+            if (newVal > 100) newVal = 100;
+            
+            targetArray[index].progress = newVal;
+            targetArray[index].color = getColorByProgress(newVal);
+
+            if (type === 'exercise') renderExercises();
+            else renderLexicon();
+        }
+
+        // Export des données combinées en JSON
+        function exportDataToJSON() {
+            const dataToExport = {
+                date: new Date().toISOString(),
+                exercises: educationState,
+                lexicon: lexiconState
+            };
+            
+            const dataStr = JSON.stringify(dataToExport, null, 2);
+            const blob = new Blob([dataStr], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `aky-matrix-log-${new Date().toISOString().slice(0,10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        // Initialisation
+        renderExercises();
+        renderLexicon();
+    </script>
+</body>
+</html>
+Donc un petit problème avec la logique, javascript et JSON car il doit charger la progression en cours sur la barre de progression parce que là j'ai enregistré quand je recharge la page, ça prend pas en charge le fichier nouvellement enregistré, j'aime bien qu'on dise aussi dans une page HTML CCS. JavaScript,et api/json les essaie d'avoir une programmation très modulaire pour la suite. Donc tu veux pouvoir me créer un nouveau fichier JavaScript genre pour education.js
+
+C'est une excellente remarque et c'est exactement la bonne approche architecturale. Un code monolithique (tout dans le même fichier HTML) est bien pour un brouillon, mais pour un vrai projet, il faut séparer la structure (HTML), le style (CSS), la logique (JavaScript) et les données (JSON).
+
+Le problème que vous rencontrez au rechargement de la page est tout à fait normal avec un site statique : le navigateur réinitialise les variables JavaScript à chaque actualisation. Pour corriger cela sans avoir besoin d'une base de données complexe sur un serveur, nous allons combiner deux choses dans notre nouveau fichier JavaScript :
+
+Le localStorage du navigateur : Il va sauvegarder automatiquement chaque clic (+ ou -) dans la mémoire de votre navigateur. Si vous actualisez la page demain, les barres de progression seront toujours là.
+
+L'Import JSON : Nous allons ajouter un bouton pour charger manuellement le fichier JSON que vous avez sauvegardé (très utile si vous changez d'ordinateur ou de téléphone).
+
+Voici la mise à jour modulaire.
+
+1. Le nouveau fichier HTML (education.html)
+J'ai nettoyé le code, supprimé le JavaScript intégré, ajouté un bouton pour importer le JSON, et lié le nouveau fichier externe tout en bas.
+
+HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+        .hud-btn { 
+            background: transparent; border: 1px solid var(--color-accent-cyan); color: var(--color-accent-cyan); 
+            width: 28px; height: 28px; border-radius: 4px; cursor: pointer; font-family: 'Fira Code', monospace;
+            display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;
+        }
+        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
+        .hud-btn.export-btn { width: auto; padding: 0 16px; border-color: var(--color-accent-orange); color: var(--color-accent-orange); }
+        .hud-btn.export-btn:hover { background: var(--color-accent-orange); color: #000; }
+        .hud-btn.import-btn { border-color: var(--color-accent-green); color: var(--color-accent-green); }
+        .hud-btn.import-btn:hover { background: var(--color-accent-green); color: #000; }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        <header class="hud-header bg-surface border-bottom p-md flex-row justify-between" style="align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div class="logo-zone flex-row gap-sm">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
+            <div class="flex-row gap-sm">
+                <!-- Nouveau bouton d'importation -->
+                <input type="file" id="import-json" style="display:none" accept=".json" onchange="importDataFromJSON(event)">
+                <button class="hud-btn export-btn import-btn" onclick="document.getElementById('import-json').click()">[ CHARGER JSON ]</button>
+                <button class="hud-btn export-btn" onclick="exportDataToJSON()">[ SAUVEGARDER JSON ]</button>
+            </div>
+        </header>
+
+        <nav class="hud-nav border-bottom">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="active highlight-cyan">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            <main class="l-canvas p-xl" style="width:100%;">
+                
+                <!-- SECTION 1 : MATRICE DES EXERCICES -->
+                <header class="mb-lg flex-row justify-between">
+                    <div>
+                        <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                        <p class="text-muted">Tableau de suivi comportemental interactif.</p>
+                    </div>
+                </header>
+
+                <div class="grid-10 mb-xl" id="exercise-grid">
+                    <!-- Généré dynamiquement par JS -->
+                </div>
+
+                <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header border-bottom pb-sm mb-md">
+                        <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+                        <p class="small-text text-muted">Mots associés et assimilation par Aky.</p>
+                    </header>
+                    
+                    <div class="lexicon-list" id="lexicon-grid">
+                        <!-- Généré dynamiquement par JS -->
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Chargement du module JavaScript externe -->
+    <script src="assets/js/education.js"></script>
+</body>
+</html>
+2. Le nouveau fichier JavaScript (assets/js/education.js)
+Vous devez créer ce fichier dans votre arborescence (assets/js/). Il contient toute la logique, gère le cache local et permet l'import/export de fichiers JSON pour créer une véritable API locale.
+
+JavaScript
+/**
+ * CORE_SYSTEM: education.js
+ * Module de gestion de la matrice d'apprentissage et du dictionnaire lexical.
+ * Gère le rendu DOM, le LocalStorage et l'import/export JSON.
+ */
+
+// --- 1. DONNÉES PAR DÉFAUT (Fallback) ---
+const defaultData = {
+    exercises: [
+        { id: 1, title: "La Réponse au Nom", desc: "Focus immédiat même en présence de Rakai.", progress: 50, color: "cyan" },
+        { id: 2, title: "Apprentissage Propreté", desc: "Suivi des sorties régulières.", progress: 60, color: "cyan" },
+        { id: 3, title: "Le 'Assis'", desc: "Ordre de contrôle de base.", progress: 10, color: "cyan" },
+        { id: 4, title: "Le 'À ta place'", desc: "Retour au calme sur le tapis dédié.", progress: 30, color: "cyan" },
+        { id: 5, title: "Le 'Au pied'", desc: "Marche et rappel de proximité.", progress: 10, color: "orange" },
+        { id: 6, title: "Le 'Stop' (Trottoir)", desc: "Marquage de l'arrêt au trottoir (sécurité auto).", progress: 5, color: "orange" },
+        { id: 7, title: "Inhibition Morsure", desc: "Mot 'Interdit' & gestion des Bisous.", progress: 40, color: "cyan" },
+        { id: 8, title: "Cohabitation Pacifique", desc: "Gestion de l'énergie avec Rakai.", progress: 80, color: "green" },
+        { id: 9, title: "Focus 'Regarde'", desc: "Contact visuel face aux distractions extérieures.", progress: 10, color: "orange" },
+        { id: 10, title: "Les Escaliers", desc: "Descendre marche par marche avec friandises.", progress: 30, color: "cyan" }
+    ],
+    lexicon: [
+        { word: "AKY", desc: "Identification de soi (résonne avec Acquis).", progress: 100, color: "green" },
+        { word: "BISOUS", desc: "Léchage autorisé / Arrêt de la morsure.", progress: 60, color: "cyan" },
+        { word: "INTERDIT", desc: "Règle absolue : arrêt de la morsure / danger.", progress: 50, color: "cyan" },
+        { word: "STOP", desc: "Arrêt immédiat au trottoir (Sécurité rue).", progress: 15, color: "orange" },
+        { word: "TU COMPRENDS", desc: "Vérification de l'attention et de l'assimilation.", progress: 40, color: "cyan" },
+        { word: "C'EST UNE BONNE IDÉE", desc: "Renforcement positif (ex: pomme de terre).", progress: 65, color: "cyan" },
+        { word: "MAUVAISE IDÉE", desc: "Détournement (coussins) vers une autre activité.", progress: 40, color: "cyan" },
+        { word: "REGARDE", desc: "Contact visuel de reconnexion face aux distractions.", progress: 20, color: "orange" },
+        { word: "RAKAI", desc: "Identification du félin de la meute.", progress: 70, color: "cyan" },
+        { word: "À TA PLACE", desc: "Aller sur le tapis pour le repos.", progress: 45, color: "cyan" }
+    ]
+};
+
+// État global de l'application
+let appState = { exercises: [], lexicon: [] };
+
+// --- 2. GESTION DU STOCKAGE (LocalStorage & JSON) ---
+
+function initializeData() {
+    const savedData = localStorage.getItem('aky_education_data');
+    if (savedData) {
+        appState = JSON.parse(savedData); // Charge depuis la mémoire locale
+    } else {
+        // Deep copy des données par défaut
+        appState = JSON.parse(JSON.stringify(defaultData)); 
+    }
+    renderAll();
+}
+
+function saveToLocal() {
+    localStorage.setItem('aky_education_data', JSON.stringify(appState));
+}
+
+// Fonction pour exporter en JSON
+function exportDataToJSON() {
+    const dataToExport = {
+        date: new Date().toISOString(),
+        exercises: appState.exercises,
+        lexicon: appState.lexicon
+    };
+    
+    const dataStr = JSON.stringify(dataToExport, null, 2);
+    const blob = new Blob([dataStr], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `aky-matrix-log-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+// Nouvelle fonction pour charger un fichier JSON externe
+function importDataFromJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importedData = JSON.parse(e.target.result);
+            if(importedData.exercises && importedData.lexicon) {
+                appState.exercises = importedData.exercises;
+                appState.lexicon = importedData.lexicon;
+                saveToLocal(); // Sauvegarde immédiatement dans le cache
+                renderAll();   // Met à jour l'interface
+                alert("Données chargées avec succès !");
+            } else {
+                alert("Erreur : Le format du fichier JSON n'est pas valide.");
+            }
+        } catch (error) {
+            alert("Erreur de lecture du fichier JSON.");
+        }
+    };
+    reader.readAsText(file);
+    // Réinitialise l'input pour pouvoir recharger le même fichier si besoin
+    event.target.value = ''; 
+}
+
+// --- 3. LOGIQUE MÉTIER ET RENDU DOM ---
+
+function getColorByProgress(value) {
+    if(value >= 80) return 'green';
+    if(value >= 30) return 'cyan';
+    return 'orange';
+}
+
+function updateProgress(type, index, change) {
+    let targetArray = type === 'exercise' ? appState.exercises : appState.lexicon;
+    
+    let newVal = targetArray[index].progress + change;
+    if (newVal < 0) newVal = 0;
+    if (newVal > 100) newVal = 100;
+    
+    targetArray[index].progress = newVal;
+    targetArray[index].color = getColorByProgress(newVal);
+
+    saveToLocal(); // Sauvegarde automatique à chaque clic !
+
+    if (type === 'exercise') renderExercises();
+    else renderLexicon();
+}
+
+function renderExercises() {
+    const gridContainer = document.getElementById('exercise-grid');
+    if(!gridContainer) return;
+
+    gridContainer.innerHTML = ''; 
+    appState.exercises.forEach((exo, index) => {
+        gridContainer.innerHTML += `
+            <div class="card bg-surface border-standard radius-md p-sm">
+                <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
+                <div class="progress-bar-container radius-sm bg-base mb-xs">
+                    <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                </div>
+                <div class="hud-controls">
+                    <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                    <div class="flex-row gap-xs">
+                        <button class="hud-btn" onclick="updateProgress('exercise', ${index}, -5)">-</button>
+                        <button class="hud-btn" onclick="updateProgress('exercise', ${index}, 5)">+</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderLexicon() {
+    const lexiconContainer = document.getElementById('lexicon-grid');
+    if(!lexiconContainer) return;
+
+    lexiconContainer.innerHTML = '';
+    appState.lexicon.forEach((lex, index) => {
+        lexiconContainer.innerHTML += `
+            <div class="bg-base border-standard radius-sm p-sm flex-col justify-between">
+                <div>
+                    <span class="font-mono highlight-${lex.color}" style="font-size: 1.1rem;">"${lex.word}"</span>
+                    <p class="small-text text-muted m-0 mb-sm" style="min-height: 36px;">${lex.desc}</p>
+                </div>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-surface mb-xs">
+                        <div class="progress-bar bg-${lex.color} radius-sm" style="width: ${lex.progress}%; height: 4px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls" style="margin-top: 4px;">
+                        <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
+                        <div class="flex-row gap-xs">
+                            <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, -5)">-</button>
+                            <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, 5)">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderAll() {
+    renderExercises();
+    renderLexicon();
+}
+
+// Initialisation au chargement du DOM
+document.addEventListener('DOMContentLoaded', initializeData);
+D'accord, j'essaye de comprendre un peu le code, moi j'ai créé un répertoire JSON/ il faudrait le charger directement le niveau de progression depuis le fichier JSON car là tu vois, tu m'as mis ça dans dans une base de données par défaut, alors qu'on pourrait avoir un fichier JSON extérieur
+
+C'est une excellente réflexion architecturale ! Séparer complètement les données (JSON) de la logique (JavaScript) est la norme professionnelle. C'est ce qu'on appelle le modèle MVC (Modèle-Vue-Contrôleur) ou la séparation des préoccupations.
+
+Pour faire cela, nous allons utiliser la fonction fetch() de JavaScript, qui permet d'aller lire un fichier distant (ou dans votre cas, dans le dossier JSON/).
+
+Voici comment restructurer votre projet.
+
+1. Créer le fichier externe JSON/education.json
+Créez un dossier JSON à la racine de votre projet (au même niveau que votre fichier HTML) et placez-y ce fichier education.json. Il ne contient que de la donnée brute, aucun code JavaScript.
+
+JSON
+{
+  "exercises": [
+    { "id": 1, "title": "La Réponse au Nom", "desc": "Focus immédiat même en présence de Rakai.", "progress": 50, "color": "cyan" },
+    { "id": 2, "title": "Apprentissage Propreté", "desc": "Suivi des sorties régulières.", "progress": 60, "color": "cyan" },
+    { "id": 3, "title": "Le 'Assis'", "desc": "Ordre de contrôle de base.", "progress": 10, "color": "cyan" },
+    { "id": 4, "title": "Le 'À ta place'", "desc": "Retour au calme sur le tapis dédié.", "progress": 30, "color": "cyan" },
+    { "id": 5, "title": "Le 'Au pied'", "desc": "Marche et rappel de proximité.", "progress": 10, "color": "orange" },
+    { "id": 6, "title": "Le 'Stop' (Trottoir)", "desc": "Marquage de l'arrêt au trottoir (sécurité auto).", "progress": 5, "color": "orange" },
+    { "id": 7, "title": "Inhibition Morsure", "desc": "Mot 'Interdit' & gestion des Bisous.", "progress": 40, "color": "cyan" },
+    { "id": 8, "title": "Cohabitation Pacifique", "desc": "Gestion de l'énergie avec Rakai.", "progress": 80, "color": "green" },
+    { "id": 9, "title": "Focus 'Regarde'", "desc": "Contact visuel face aux distractions extérieures.", "progress": 10, "color": "orange" },
+    { "id": 10, "title": "Les Escaliers", "desc": "Descendre marche par marche avec friandises.", "progress": 30, "color": "cyan" }
+  ],
+  "lexicon": [
+    { "word": "AKY", "desc": "Identification de soi (résonne avec Acquis).", "progress": 100, "color": "green" },
+    { "word": "BISOUS", "desc": "Léchage autorisé / Arrêt de la morsure.", "progress": 60, "color": "cyan" },
+    { "word": "INTERDIT", "desc": "Règle absolue : arrêt de la morsure / danger.", "progress": 50, "color": "cyan" },
+    { "word": "STOP", "desc": "Arrêt immédiat au trottoir (Sécurité rue).", "progress": 15, "color": "orange" },
+    { "word": "TU COMPRENDS", "desc": "Vérification de l'attention et de l'assimilation.", "progress": 40, "color": "cyan" },
+    { "word": "C'EST UNE BONNE IDÉE", "desc": "Renforcement positif (ex: pomme de terre).", "progress": 65, "color": "cyan" },
+    { "word": "MAUVAISE IDÉE", "desc": "Détournement (coussins) vers une autre activité.", "progress": 40, "color": "cyan" },
+    { "word": "REGARDE", "desc": "Contact visuel de reconnexion face aux distractions.", "progress": 20, "color": "orange" },
+    { "word": "RAKAI", "desc": "Identification du félin de la meute.", "progress": 70, "color": "cyan" },
+    { "word": "À TA PLACE", "desc": "Aller sur le tapis pour le repos.", "progress": 45, "color": "cyan" }
+  ]
+}
+2. Mettre à jour assets/js/education.js
+Nous supprimons les données en dur. La fonction initializeData devient "asynchrone" (avec async et await) pour lui donner le temps d'aller chercher le fichier.
+
+JavaScript
+/**
+ * CORE_SYSTEM: education.js
+ * Module de gestion de la matrice d'apprentissage et du dictionnaire lexical.
+ * Gère le rendu DOM, le LocalStorage et l'API fetch JSON.
+ */
+
+// État global de l'application (vide au départ)
+let appState = { exercises: [], lexicon: [] };
+
+// --- 1. INITIALISATION ET CHARGEMENT DU JSON ---
+
+async function initializeData() {
+    // Étape A : Vérifier s'il y a déjà des modifications enregistrées dans le cache du navigateur
+    const savedData = localStorage.getItem('aky_education_data');
+    
+    if (savedData) {
+        console.log("Chargement des données depuis le LocalStorage.");
+        appState = JSON.parse(savedData);
+        renderAll();
+    } else {
+        // Étape B : Si le cache est vide, on charge le fichier JSON maître
+        console.log("Aucun cache trouvé. Chargement depuis JSON/education.json...");
+        try {
+            // L'API Fetch va lire le fichier externe
+            const response = await fetch('JSON/education.json');
+            
+            if (!response.ok) {
+                throw new Error(`Erreur HTTP: ${response.status}`);
+            }
+            
+            appState = await response.json(); // Transforme le texte JSON en objet JS
+            renderAll(); // Affiche les données
+        } catch (error) {
+            console.error("Erreur de chargement du fichier JSON :", error);
+            document.getElementById('exercise-grid').innerHTML = `<p style="color:var(--color-accent-orange)">Erreur : Impossible de charger JSON/education.json. Vérifiez le chemin du fichier.</p>`;
+        }
+    }
+}
+
+// --- 2. GESTION DU STOCKAGE ---
+
+function saveToLocal() {
+    localStorage.setItem('aky_education_data', JSON.stringify(appState));
+}
+
+function exportDataToJSON() {
+    const dataToExport = {
+        date: new Date().toISOString(),
+        exercises: appState.exercises,
+        lexicon: appState.lexicon
+    };
+    
+    const dataStr = JSON.stringify(dataToExport, null, 2);
+    const blob = new Blob([dataStr], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    // Nomme le fichier à télécharger
+    a.download = `education-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function importDataFromJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const importedData = JSON.parse(e.target.result);
+            if(importedData.exercises && importedData.lexicon) {
+                appState.exercises = importedData.exercises;
+                appState.lexicon = importedData.lexicon;
+                saveToLocal();
+                renderAll();
+            } else {
+                alert("Format JSON non reconnu.");
+            }
+        } catch (error) {
+            alert("Erreur de lecture.");
+        }
+    };
+    reader.readAsText(file);
+    event.target.value = ''; 
+}
+
+// --- 3. LOGIQUE MÉTIER ET RENDU DOM ---
+
+function getColorByProgress(value) {
+    if(value >= 80) return 'green';
+    if(value >= 30) return 'cyan';
+    return 'orange';
+}
+
+function updateProgress(type, index, change) {
+    let targetArray = type === 'exercise' ? appState.exercises : appState.lexicon;
+    
+    let newVal = targetArray[index].progress + change;
+    if (newVal < 0) newVal = 0;
+    if (newVal > 100) newVal = 100;
+    
+    targetArray[index].progress = newVal;
+    targetArray[index].color = getColorByProgress(newVal);
+
+    saveToLocal(); // Sauvegarde en mémoire à chaque clic
+
+    if (type === 'exercise') renderExercises();
+    else renderLexicon();
+}
+
+function renderExercises() {
+    const gridContainer = document.getElementById('exercise-grid');
+    if(!gridContainer) return;
+
+    gridContainer.innerHTML = ''; 
+    appState.exercises.forEach((exo, index) => {
+        gridContainer.innerHTML += `
+            <div class="card bg-surface border-standard radius-md p-sm">
+                <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
+                <div class="progress-bar-container radius-sm bg-base mb-xs">
+                    <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                </div>
+                <div class="hud-controls">
+                    <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                    <div class="flex-row gap-xs">
+                        <button class="hud-btn" onclick="updateProgress('exercise', ${index}, -5)">-</button>
+                        <button class="hud-btn" onclick="updateProgress('exercise', ${index}, 5)">+</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderLexicon() {
+    const lexiconContainer = document.getElementById('lexicon-grid');
+    if(!lexiconContainer) return;
+
+    lexiconContainer.innerHTML = '';
+    appState.lexicon.forEach((lex, index) => {
+        lexiconContainer.innerHTML += `
+            <div class="bg-base border-standard radius-sm p-sm flex-col justify-between">
+                <div>
+                    <span class="font-mono highlight-${lex.color}" style="font-size: 1.1rem;">"${lex.word}"</span>
+                    <p class="small-text text-muted m-0 mb-sm" style="min-height: 36px;">${lex.desc}</p>
+                </div>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-surface mb-xs">
+                        <div class="progress-bar bg-${lex.color} radius-sm" style="width: ${lex.progress}%; height: 4px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls" style="margin-top: 4px;">
+                        <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
+                        <div class="flex-row gap-xs">
+                            <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, -5)">-</button>
+                            <button class="hud-btn" style="width: 20px; height: 20px; font-size: 0.8rem;" onclick="updateProgress('lexicon', ${index}, 5)">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderAll() {
+    renderExercises();
+    renderLexicon();
+}
+
+// Lancement du système une fois que la page HTML est chargée
+document.addEventListener('DOMContentLoaded', initializeData);
+⚠️ Point technique crucial (Sécurité des navigateurs)
+La fonction fetch('JSON/education.json') ne fonctionnera pas si vous ouvrez votre fichier HTML en faisant simplement un double-clic dessus (l'adresse commencera par file:///). Les navigateurs bloquent le chargement de fichiers locaux par mesure de sécurité (CORS policy).
+
+Pour que cela fonctionne, vous devez ouvrir votre projet via un serveur local. Si vous utilisez l'éditeur de code VS Code, l'extension Live Server est parfaite pour cela (clic droit sur votre HTML -> "Open with Live Server"). L'adresse commencera alors par [http://127.0.0.1](http://127.0.0.1) ou http://localhost, et le fichier JSON sera lu correctement.
+
+OK il y a encore des petites choses à revoir. La progression est incrément Ables c'est impossible. Il y a une régression donc l'idée c'est de sauvegarder automatiquement quand je clique sur un "plus" et pas besoin qui est "moins" en fait. L'idée c'est de créer une fonction d'écriture en JavaScript sur le fichier JSON pour corriger les erreurs. Il s'agit du répertoire. assets/json/
+
+C'est une excellente remarque : l'apprentissage avance, il ne recule pas. Supprimer le bouton "moins" simplifie l'interface et correspond mieux à la philosophie de l'éducation canine. Pour les éventuelles erreurs de saisie, la modification manuelle directe du fichier JSON est effectivement la méthode la plus propre (et la plus "Data Architect").
+
+Sur le plan technique, il y a une règle de sécurité stricte sur le web : un navigateur (JavaScript front-end) n'a pas le droit de modifier directement un fichier sur votre disque dur.
+
+Cependant, puisque le serveur Node.js est déjà opérationnel pour le Hub, c'est lui qui va s'occuper de l'écriture. Le JavaScript de la page web (front-end) va simplement envoyer un message au serveur à chaque clic sur "plus", et le serveur va écraser le fichier assets/json/education.json avec les nouvelles données.
+
+Voici les deux étapes pour mettre en place cette architecture modulaire complète.
+
+1. La logique Front-End (assets/js/education.js)
+Ce fichier va désormais charger les données depuis assets/json/education.json. Le bouton "moins" est supprimé, et chaque clic sur "plus" déclenche une requête POST vers le serveur pour sauvegarder automatiquement.
+
+JavaScript
+/**
+ * CORE_SYSTEM: education.js
+ * Module de gestion de la matrice d'apprentissage et du dictionnaire lexical.
+ * Gère le rendu DOM et la communication avec le serveur Node.js pour l'écriture JSON.
+ */
+
+// État global de l'application
+let appState = { exercises: [], lexicon: [] };
+
+// --- 1. CHARGEMENT DEPUIS LE FICHIER JSON ---
+
+async function initializeData() {
+    try {
+        // Chargement depuis le nouveau répertoire
+        const response = await fetch('assets/json/education.json');
+        
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP: ${response.status}`);
+        }
+        
+        appState = await response.json(); 
+        renderAll(); 
+    } catch (error) {
+        console.error("Erreur de chargement du fichier JSON :", error);
+        document.getElementById('exercise-grid').innerHTML = `<p style="color:var(--color-accent-orange)">Erreur : Impossible de charger assets/json/education.json. Vérifiez le chemin ou l'état du serveur.</p>`;
+    }
+}
+
+// --- 2. SAUVEGARDE AUTOMATIQUE VERS LE SERVEUR NODE.JS ---
+
+async function saveToServer() {
+    try {
+        // Envoi des données au serveur Node.js via une route API
+        const response = await fetch('/api/save-education', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(appState)
+        });
+
+        if (!response.ok) {
+            console.error("Erreur lors de la sauvegarde sur le serveur.");
+        } else {
+            console.log("Progression sauvegardée dans assets/json/education.json");
+        }
+    } catch (error) {
+        console.error("Erreur de communication avec le serveur :", error);
+    }
+}
+
+// --- 3. LOGIQUE MÉTIER ET RENDU DOM ---
+
+function getColorByProgress(value) {
+    if(value >= 80) return 'green';
+    if(value >= 30) return 'cyan';
+    return 'orange';
+}
+
+// Fonction simplifiée : Uniquement de l'incrémentation (+5%)
+function incrementProgress(type, index) {
+    let targetArray = type === 'exercise' ? appState.exercises : appState.lexicon;
+    
+    let newVal = targetArray[index].progress + 5;
+    if (newVal > 100) newVal = 100; // Bloque à 100%
+    
+    targetArray[index].progress = newVal;
+    targetArray[index].color = getColorByProgress(newVal);
+
+    // Rendu UI et sauvegarde automatique
+    if (type === 'exercise') renderExercises();
+    else renderLexicon();
+    
+    saveToServer(); 
+}
+
+function renderExercises() {
+    const gridContainer = document.getElementById('exercise-grid');
+    if(!gridContainer) return;
+
+    gridContainer.innerHTML = ''; 
+    appState.exercises.forEach((exo, index) => {
+        gridContainer.innerHTML += `
+            <div class="card bg-surface border-standard radius-md p-sm">
+                <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
+                <div class="progress-bar-container radius-sm bg-base mb-xs">
+                    <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                </div>
+                <div class="hud-controls">
+                    <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                    <button class="hud-btn" onclick="incrementProgress('exercise', ${index})">[ + ]</button>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderLexicon() {
+    const lexiconContainer = document.getElementById('lexicon-grid');
+    if(!lexiconContainer) return;
+
+    lexiconContainer.innerHTML = '';
+    appState.lexicon.forEach((lex, index) => {
+        lexiconContainer.innerHTML += `
+            <div class="bg-base border-standard radius-sm p-sm flex-col justify-between">
+                <div>
+                    <span class="font-mono highlight-${lex.color}" style="font-size: 1.1rem;">"${lex.word}"</span>
+                    <p class="small-text text-muted m-0 mb-sm" style="min-height: 36px;">${lex.desc}</p>
+                </div>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-surface mb-xs">
+                        <div class="progress-bar bg-${lex.color} radius-sm" style="width: ${lex.progress}%; height: 4px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls" style="margin-top: 4px;">
+                        <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
+                        <button class="hud-btn" style="width: 40px; height: 20px; font-size: 0.8rem;" onclick="incrementProgress('lexicon', ${index})">[ + ]</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderAll() {
+    renderExercises();
+    renderLexicon();
+}
+
+// Lancement au chargement
+document.addEventListener('DOMContentLoaded', initializeData);
+2. Le relais Back-End (Ajout dans votre server.js)
+Pour que l'écriture fonctionne physiquement dans le fichier, ajoutez ce petit bloc de code dans votre fichier serveur Node.js (celui qui écoute sur le port 3145). Il utilise le module natif fs (File System) pour écrire les données formatées.
+
+JavaScript
+const fs = require('fs');
+const path = require('path');
+
+// ... (vos autres routes et configurations express)
+
+// Route pour écouter la sauvegarde automatique de l'éducation
+app.post('/api/save-education', express.json(), (req, res) => {
+    // Chemin absolu vers le fichier cible
+    const filePath = path.join(__dirname, 'assets', 'json', 'education.json');
+    
+    try {
+        // Écriture du fichier avec une belle indentation (2 espaces)
+        fs.writeFileSync(filePath, JSON.stringify(req.body, null, 2), 'utf8');
+        res.status(200).json({ success: true, message: "Fichier mis à jour avec succès." });
+    } catch (error) {
+        console.error("Erreur d'écriture JSON :", error);
+        res.status(500).json({ success: false, error: "Impossible de modifier le fichier." });
+    }
+});
+il faudra donc metre a jours education.html
+
+Tout à fait ! Puisque nous avons mis en place un système de sauvegarde automatique via l'API Node.js, l'interface HTML doit être épurée.
+
+Nous n'avons plus besoin des boutons manuels pour "Charger" ou "Sauvegarder" le fichier JSON, ni de l'élément caché <input type="file">. La communication se fait désormais de manière transparente et automatisée en arrière-plan.  
+HTML
+
+J'ai nettoyé le bloc <style> pour retirer les classes CSS des anciens boutons, et j'ai remplacé la zone des boutons dans le header par un simple indicateur visuel confirmant que la sauvegarde automatique est active.  
+HTML
+
+Voici le code mis à jour pour education.html :
+
+HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation | Hub Aky & Rakai</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/resolve.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+        .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+        .hud-btn { 
+            background: transparent; border: 1px solid var(--color-accent-cyan); color: var(--color-accent-cyan); 
+            width: 28px; height: 28px; border-radius: 4px; cursor: pointer; font-family: 'Fira Code', monospace;
+            display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;
+        }
+        .hud-btn:hover { background: var(--color-accent-cyan); color: #000; }
+        .auto-save-badge {
+            border: 1px solid var(--color-accent-green);
+            color: var(--color-accent-green);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body class="hud-theme-dark bg-base text-main font-ui">
+    <div class="app-container">
+        <header class="hud-header bg-surface border-bottom p-md flex-row justify-between" style="align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div class="logo-zone flex-row gap-sm">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
+            <div class="flex-row gap-sm">
+                <!-- Indicateur visuel remplaçant les boutons manuels -->
+                <span class="font-mono auto-save-badge">[ API SYNC: ACTIVE ]</span>
+            </div>
+        </header>
+
+        <nav class="hud-nav border-bottom">
+            <ul class="flex-row">
+                <li><a href="index.html" class="text-muted">[01] HUB</a></li>
+                <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
+                <li><a href="education.html" class="active highlight-cyan">[03] ÉDUCATION</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+            </ul>
+        </nav>
+
+        <div class="workspace flex-row">
+            <main class="l-canvas p-xl" style="width:100%;">
+                
+                <!-- SECTION 1 : MATRICE DES EXERCICES -->
+                <header class="mb-lg flex-row justify-between">
+                    <div>
+                        <h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+                        <p class="text-muted">Tableau de suivi comportemental interactif (+5% par validation).</p>
+                    </div>
+                </header>
+
+                <div class="grid-10 mb-xl" id="exercise-grid">
+                    <!-- Généré dynamiquement par JS -->
+                </div>
+
+                <!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+                <section class="dashboard-panel bg-surface border-standard radius-md p-md">
+                    <header class="panel-header border-bottom pb-sm mb-md">
+                        <h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+                        <p class="small-text text-muted">Mots associés et assimilation par Aky (+5% par validation).</p>
+                    </header>
+                    
+                    <div class="lexicon-list" id="lexicon-grid">
+                        <!-- Généré dynamiquement par JS -->
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Chargement du module JavaScript externe -->
+    <script src="assets/js/education.js"></script>
+</body>
+</html>
+par contre toi qui est tout fonctionne correctement, par contre littéralement n'avait commencé à travailler sur une base de données avec des mots importants et tu me les as effacé et moi j'ai enregistré les nouvelles versions soit, on retrouve dans l'historique de conversation tout le dictionnaire complet. C'est embêtant quand même parce que y a beaucoup de mots., donc j'ai cherché dans mon historique que ce soit les exercices ou les mots nouveaux, ils sont dans ma version antérieure ou précédente. Donc l'analyse bien mon fichier il sera nécessaire pour la mise à jour. "<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Éducation | Hub Aky & Rakai</title>
+
+<link rel="stylesheet" href="assets/css/variables.css">
+
+<link rel="stylesheet" href="assets/css/layout.css">
+
+<link rel="stylesheet" href="assets/css/resolve.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* Composant Grille Spécifique pour les exercices */
+
+.grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+
+/* Style pour le dictionnaire */
+
+.lexicon-list { display: grid; grid-template-columns: 1fr; gap: var(--space-sm); }
+
+@media (min-width: 768px) { .lexicon-list { grid-template-columns: 1fr 1fr; } }
+
+</style>
+
+</head>
+
+<body class="hud-theme-dark bg-base text-main font-ui">
+
+<div class="app-container">
+
+<header class="hud-header bg-surface border-bottom p-md">
+
+<div class="logo-zone">
+
+<h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+
+</div>
+
+</header>
+
+
+
+<nav class="hud-nav border-bottom" aria-label="Navigation Principale">
+
+<ul class="flex-row">
+
+<li><a href="index.html" class="text-muted">[01] HUB CENTRAL</a></li>
+
+<li><a href="histoire.html" class="text-muted">[02] L'HISTOIRE</a></li>
+
+<li><a href="education.html" class="active highlight-cyan" aria-current="page">[03] ÉDUCATION (10 Étapes)</a></li>
+
+<li><a href="defi28.html" class="text-muted">[04] DÉFI 28 JOURS</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<div class="workspace flex-row">
+
+<main class="l-canvas p-xl" style="width:100%;">
+
+
+<!-- SECTION 1 : MATRICE DES EXERCICES -->
+
+<header class="mb-lg">
+
+<h2 class="highlight-cyan font-mono">MATRICE D'APPRENTISSAGE (10 EXERCICES)</h2>
+
+<p class="text-muted">Tableau de suivi comportemental pour l'éducatrice canine.</p>
+
+</header>
+
+
+
+<div class="grid-10 mb-xl">
+
+<!-- 01 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">01. La Réponse au Nom</h3>
+
+<p class="small-text text-muted mb-sm">Focus immédiat même en présence de Rakai.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 50%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-cyan font-mono">50% - Réagit à son nom</span>
+
+</div>
+
+
+
+<!-- 02 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">02. Apprentissage Propreté</h3>
+
+<p class="small-text text-muted mb-sm">Suivi des sorties régulières.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 60%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-cyan font-mono">60% - Association du lieu/mot</span>
+
+</div>
+
+
+
+<!-- 03 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">03. Le "Assis"</h3>
+
+<p class="small-text text-muted mb-sm">Ordre de contrôle de base.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-cyan font-mono">10% - Découverte</span>
+
+</div>
+
+
+
+<!-- 04 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">04. Le "À ta place"</h3>
+
+<p class="small-text text-muted mb-sm">Retour au calme sur le tapis dédié.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 30%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-cyan font-mono">30% - Dors spontanément dessus</span>
+
+</div>
+
+
+
+<!-- 05 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">05. Le "Au pied"</h3>
+
+<p class="small-text text-muted mb-sm">Marche et rappel de proximité.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 10%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-orange font-mono">10% - Introduction au sifflet</span>
+
+</div>
+
+
+
+<!-- 06 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">06. "Attention à la route"</h3>
+
+<p class="small-text text-muted mb-sm">Marquage de l'arrêt au trottoir (sécurité).</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 5%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-orange font-mono">5% - À l'étude</span>
+
+</div>
+
+
+
+<!-- 07 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">07. Inhibition Morsure</h3>
+
+<p class="small-text text-muted mb-sm">Gestion des "Bisous" et redirection des "Mauvaises idées".</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-cyan radius-sm" style="width: 40%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-cyan font-mono">40% - Accepte la redirection (Jouet)</span>
+
+</div>
+
+
+
+<!-- 08 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">08. Cohabitation Pacifique</h3>
+
+<p class="small-text text-muted mb-sm">Gestion de l'énergie avec Rakai.</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-green radius-sm" style="width: 80%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-green font-mono">80% - Très Bon (Promenades partagées)</span>
+
+</div>
+
+
+
+<!-- 09 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">09. Focus & Ciblage</h3>
+
+<p class="small-text text-muted mb-sm">Contact visuel ("Regarde") et target main ("Touche").</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-orange radius-sm" style="width: 0%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-orange font-mono">0% - À Découvrir</span>
+
+</div>
+
+
+
+<!-- 10 -->
+
+<div class="card bg-surface border-standard radius-md p-sm">
+
+<h3 class="font-mono text-main mb-xs">10. Échange Coopératif</h3>
+
+<p class="small-text text-muted mb-sm">Renoncement ("Tu laisses") et lâcher ("Donne").</p>
+
+<div class="progress-bar-container radius-sm bg-base mb-xs">
+
+<div class="progress-bar bg-orange radius-sm" style="width: 0%; height: 6px;"></div>
+
+</div>
+
+<span class="small-text highlight-orange font-mono">0% - À Découvrir</span>
+
+</div>
+
+</div>
+
+
+
+<!-- SECTION 2 : DICTIONNAIRE LEXICAL -->
+
+<section class="dashboard-panel bg-surface border-standard radius-md p-md">
+
+<header class="panel-header border-bottom pb-sm mb-md">
+
+<h2 class="highlight-orange font-mono">DICTIONNAIRE LEXICAL (Base de données vocale)</h2>
+
+<p class="small-text text-muted">Mots associés et compris par Aky.</p>
+
+</header>
+
+
+<div class="lexicon-list">
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"AKY"</span>
+
+<p class="small-text text-muted m-0">Identification de soi</p>
+
+</div>
+
+<span class="highlight-green font-mono">ACQUIS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"TOILETTE"</span>
+
+<p class="small-text text-muted m-0">Besoins à l'extérieur</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"AU PIED"</span>
+
+<p class="small-text text-muted m-0">Rappel de proximité (futur signal sonore)</p>
+
+</div>
+
+<span class="highlight-orange font-mono">À L'ÉTUDE</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-orange" style="font-size: 1.1rem;">"RAKAI"</span>
+
+<p class="small-text text-muted m-0">Identification du félin de la meute</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BALLE / JOUET"</span>
+
+<p class="small-text text-muted m-0">Objet ludique et redirection</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">ACQUIS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"PROMENADE"</span>
+
+<p class="small-text text-muted m-0">Sortie extérieure partagée avec Rakai</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"MAUVAISE IDÉE"</span>
+
+<p class="small-text text-muted m-0">Signal d'interruption avant redirection</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"BISOUS"</span>
+
+<p class="small-text text-muted m-0">Léchage autorisé / Arrêt de la morsure</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between">
+
+<div>
+
+<span class="font-mono highlight-cyan" style="font-size: 1.1rem;">"À TA PLACE"</span>
+
+<p class="small-text text-muted m-0">Aller sur le tapis pour le repos</p>
+
+</div>
+
+<span class="highlight-cyan font-mono">EN COURS</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"ATTENTION"</span>
+
+<p class="small-text text-muted m-0">Arrêt de sécurité (Route/Trottoir)</p>
+
+</div>
+
+<span class="highlight-orange font-mono">À L'ÉTUDE</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"TU LAISSES"</span>
+
+<p class="small-text text-muted m-0">Ignorer un objet ou de la nourriture</p>
+
+</div>
+
+<span class="highlight-orange font-mono">DÉCOUVERTE</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"REGARDE"</span>
+
+<p class="small-text text-muted m-0">Contact visuel de reconnexion</p>
+
+</div>
+
+<span class="highlight-orange font-mono">DÉCOUVERTE</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"TOUCHE"</span>
+
+<p class="small-text text-muted m-0">Ciblage de la main avec la truffe</p>
+
+</div>
+
+<span class="highlight-orange font-mono">DÉCOUVERTE</span>
+
+</div>
+
+
+
+<div class="bg-base border-standard radius-sm p-sm flex-row justify-between" style="opacity: 0.7;">
+
+<div>
+
+<span class="font-mono text-muted" style="font-size: 1.1rem;">"DONNE"</span>
+
+<p class="small-text text-muted m-0">Lâcher un objet en échange d'une récompense</p>
+
+</div>
+
+<span class="highlight-orange font-mono">DÉCOUVERTE</span>
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+</main>
+
+</div>
+
+</div>
+
+</body>
+
+</html>"
+
+C'est une excellente remarque et tu as tout à fait raison de me corriger. Lors de la transition vers le format modulaire, j'ai généré des données par défaut ("placeholder") au lieu de conserver ta base de données historique brute. En tant qu'Architecte de Données, la perte d'intégrité de la base de mots est une erreur de ma part.
+
+J'ai analysé en détail le code HTML que tu as fourni. J'ai extrait chaque exercice avec son pourcentage exact et chaque mot du lexique. Pour que ton système JavaScript fonctionne parfaitement avec la nouvelle logique d'incrémentation (+5%), j'ai converti tes états de texte ("ACQUIS", "EN COURS", "À L'ÉTUDE", "DÉCOUVERTE") en pourcentages logiques (100%, 50%, 10%, 5%) et ajusté les codes couleurs selon notre norme d'interface (orange, cyan, green).
+
+Voici le fichier assets/json/education.json complet, restauré avec tes véritables données d'entraînement pour Aky.
+
+JSON
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "La Réponse au Nom",
+      "desc": "Focus immédiat même en présence de Rakai.",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "id": 2,
+      "title": "Apprentissage Propreté",
+      "desc": "Suivi des sorties régulières.",
+      "progress": 60,
+      "color": "cyan"
+    },
+    {
+      "id": 3,
+      "title": "Le 'Assis'",
+      "desc": "Ordre de contrôle de base.",
+      "progress": 10,
+      "color": "cyan"
+    },
+    {
+      "id": 4,
+      "title": "Le 'À ta place'",
+      "desc": "Retour au calme sur le tapis dédié.",
+      "progress": 30,
+      "color": "cyan"
+    },
+    {
+      "id": 5,
+      "title": "Le 'Au pied'",
+      "desc": "Marche et rappel de proximité.",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "id": 6,
+      "title": "Attention à la route",
+      "desc": "Marquage de l'arrêt au trottoir (sécurité).",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "id": 7,
+      "title": "Inhibition Morsure",
+      "desc": "Gestion des 'Bisous' et redirection des 'Mauvaises idées'.",
+      "progress": 40,
+      "color": "cyan"
+    },
+    {
+      "id": 8,
+      "title": "Cohabitation Pacifique",
+      "desc": "Gestion de l'énergie avec Rakai.",
+      "progress": 80,
+      "color": "green"
+    },
+    {
+      "id": 9,
+      "title": "Focus & Ciblage",
+      "desc": "Contact visuel ('Regarde') et target main ('Touche').",
+      "progress": 0,
+      "color": "orange"
+    },
+    {
+      "id": 10,
+      "title": "Échange Coopératif",
+      "desc": "Renoncement ('Tu laisses') et lâcher ('Donne').",
+      "progress": 0,
+      "color": "orange"
+    }
+  ],
+  "lexicon": [
+    {
+      "word": "AKY",
+      "desc": "Identification de soi",
+      "progress": 100,
+      "color": "green"
+    },
+    {
+      "word": "TOILETTE",
+      "desc": "Besoins à l'extérieur",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "AU PIED",
+      "desc": "Rappel de proximité (futur signal sonore)",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "word": "RAKAI",
+      "desc": "Identification du félin de la meute",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "BALLE / JOUET",
+      "desc": "Objet ludique et redirection",
+      "progress": 100,
+      "color": "green"
+    },
+    {
+      "word": "PROMENADE",
+      "desc": "Sortie extérieure partagée avec Rakai",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "MAUVAISE IDÉE",
+      "desc": "Signal d'interruption avant redirection",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "BISOUS",
+      "desc": "Léchage autorisé / Arrêt de la morsure",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "À TA PLACE",
+      "desc": "Aller sur le tapis pour le repos",
+      "progress": 50,
+      "color": "cyan"
+    },
+    {
+      "word": "ATTENTION",
+      "desc": "Arrêt de sécurité (Route/Trottoir)",
+      "progress": 10,
+      "color": "orange"
+    },
+    {
+      "word": "TU LAISSES",
+      "desc": "Ignorer un objet ou de la nourriture",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "REGARDE",
+      "desc": "Contact visuel de reconnexion",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "TOUCHE",
+      "desc": "Ciblage de la main avec la truffe",
+      "progress": 5,
+      "color": "orange"
+    },
+    {
+      "word": "DONNE",
+      "desc": "Lâcher un objet en échange d'une récompense",
+      "progress": 5,
+      "color": "orange"
+    }
+  ]
+}
+OK donc il y a d'autres erreurs donc ça c'est bon pour la base de données Le scrolling Bar de app-contenair au mode mobile First ne fonctionne pas on sait quelque chose nous avons déjà corrigé dans la conversation tu auras, tu as l'erreur, sur le plan HTML, le bouton plus c'est extrêmement moche, donc on va risquer de faire des erreurs en modifiant le CSS comme ça, donc je t'envoie ma version précédente aussi [/**
+
+* @file layout.css
+
+* @description Architecture structurelle (Grilles, Flexbox, Utilitaires W3C)
+
+* @context Hub Aky & Rakai
+
+*/
+
+
+
+/* ==========================================================================
+
+1. RESET & NORMES DE BASE W3C
+
+========================================================================== */
+
+*, *::before, *::after {
+
+box-sizing: border-box;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+
+
+body, html {
+
+height: 100%;
+
+width: 100%;
+
+/* On verrouille le scroll global, seuls les tiroirs et le canvas scrolleront */
+
+overflow: hidden;
+
+line-height: 1.5;
+
+-webkit-font-smoothing: antialiased;
+
+}
+
+
+
+/* ==========================================================================
+
+2. CONNEXION AUX VARIABLES (Couleurs & Typographie)
+
+========================================================================== */
+
+.bg-base { background-color: var(--color-bg-base); }
+
+.bg-surface { background-color: var(--color-bg-surface); }
+
+
+
+.text-main { color: var(--color-text-main); }
+
+.text-muted { color: var(--color-text-muted); }
+
+
+
+.font-ui { font-family: var(--font-ui); }
+
+.font-mono { font-family: var(--font-mono); }
+
+.small-text { font-size: 0.8rem; }
+
+
+
+/* ==========================================================================
+
+3. ARCHITECTURE GLOBALE HUD (Heads-Up Display)
+
+========================================================================== */
+
+.app-container {
+
+display: flex;
+
+flex-direction: column;
+
+height: 100vh;
+
+width: 100vw;
+
+}
+
+
+
+/* Le Workspace occupe tout l'espace disponible entre le header et le footer */
+
+.workspace {
+
+display: flex;
+
+flex-direction: row;
+
+flex-grow: 1;
+
+overflow: hidden;
+
+position: relative;
+
+}
+
+
+
+/* Tiroirs latéraux (Menu Médias & Terminal) */
+
+.left-drawer, .right-drawer {
+
+width: 320px;
+
+flex-shrink: 0;
+
+display: flex;
+
+flex-direction: column;
+
+overflow-y: auto;
+
+z-index: 10;
+
+}
+
+
+
+/* Zone Centrale de travail (Le dashboard principal) */
+
+.l-canvas {
+
+flex-grow: 1;
+
+display: flex;
+
+flex-direction: column;
+
+overflow-y: auto;
+
+position: relative;
+
+}
+
+
+
+/* ==========================================================================
+
+4. SYSTÈME FLEXBOX UTILITAIRE
+
+========================================================================== */
+
+.flex-row {
+
+display: flex;
+
+flex-direction: row;
+
+align-items: center;
+
+}
+
+
+
+.flex-col {
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+
+
+.justify-between {
+
+justify-content: space-between;
+
+}
+
+
+
+.gap-sm { gap: var(--space-sm); }
+
+.gap-md { gap: var(--space-md); }
+
+
+
+/* ==========================================================================
+
+5. SYSTÈME D'ESPACEMENT MODULAIRE (Marges et Paddings)
+
+========================================================================== */
+
+.p-sm { padding: var(--space-sm); }
+
+.p-md { padding: var(--space-md); }
+
+.p-xl { padding: var(--space-xl); }
+
+
+
+.pb-sm { padding-bottom: var(--space-sm); }
+
+
+
+.mb-sm { margin-bottom: var(--space-sm); }
+
+.mb-md { margin-bottom: var(--space-md); }
+
+.mb-lg { margin-bottom: var(--space-lg); }
+
+
+
+.mt-sm { margin-top: var(--space-sm); }
+
+
+
+/* ==========================================================================
+
+6. BORDURES ET EFFETS DE SURFACE
+
+========================================================================== */
+
+.border-standard { border: 1px solid var(--color-border); }
+
+.border-bottom { border-bottom: 1px solid var(--color-border); }
+
+.border-top { border-top: 1px solid var(--color-border); }
+
+.border-left { border-left: 1px solid var(--color-border); }
+
+.border-right { border-right: 1px solid var(--color-border); }
+
+.border-cyan { border: 1px solid var(--color-accent-cyan); }
+
+
+
+.radius-sm { border-radius: var(--radius-sm); }
+
+.radius-md { border-radius: var(--radius-md); }
+
+
+
+/* Application du filtre de flou pour les tiroirs */
+
+.blur-bg {
+
+backdrop-filter: var(--blur-overlay);
+
+-webkit-backdrop-filter: var(--blur-overlay);
+
+/* Ajout d'une légère transparence au fond pour que le flou agisse */
+
+background-color: rgba(18, 22, 32, 0.85);
+
+}
+
+
+
+.overflow-y { overflow-y: auto; }
+
+/* Utilitaires W3C manquants */
+
+.w-full { width: 100%; }
+
+.max-w-1200 { max-width: 1200px; margin: 0 auto; }
+
+.list-none { list-style: none; padding: 0; }
+
+.m-0 { margin: 0; }
+
+
+
+/* Grilles Modulaires & Responsives (Mobile-First) */
+
+.grid-kpi {
+
+display: grid;
+
+grid-template-columns: 1fr;
+
+gap: var(--space-md);
+
+margin-bottom: var(--space-lg);
+
+}
+
+
+
+.grid-10 {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+gap: var(--space-md);
+
+}
+
+
+
+.grid-lexicon {
+
+display: grid;
+
+grid-template-columns: 1fr;
+
+gap: var(--space-sm);
+
+}
+
+
+
+.grid-gallery {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+gap: var(--space-md);
+
+}
+
+
+
+/* Breakpoints pour Tablettes et Bureaux */
+
+@media (min-width: 768px) {
+
+.grid-kpi { grid-template-columns: repeat(3, 1fr); }
+
+.grid-lexicon { grid-template-columns: repeat(2, 1fr); }
+
+}
+
+/* ==========================================================================
+
+CORRECTION RESPONSIVE : SCROLL NATIF MOBILE (100% GARANTI)
+
+========================================================================== */
+
+@media (max-width: 767px) {
+
+/* 1. On déverrouille TOTALEMENT le scroll global du téléphone */
+
+html, body {
+
+height: auto !important;
+
+overflow-y: auto !important;
+
+overflow-x: hidden !important;
+
+-webkit-overflow-scrolling: touch; /* Optimisation iOS/Android */
+
+}
+
+
+
+/* 2. On annule les restrictions Flexbox du layout "bureau" */
+
+.app-container, .workspace {
+
+display: block !important; /* Annule le flex */
+
+height: auto !important;
+
+overflow: visible !important;
+
+}
+
+
+
+/* 3. On cloue le menu de navigation tout en bas de l'écran */
+
+.hud-nav {
+
+position: fixed;
+
+bottom: 0;
+
+left: 0;
+
+width: 100%;
+
+z-index: 9999;
+
+background-color: var(--bg-base, #0a0a0a); /* À ajuster si votre fond n'est pas noir */
+
+border-top: 1px solid var(--color-border);
+
+border-bottom: none;
+
+}
+
+
+
+/* 4. On protège le bas du contenu pour qu'il ne passe pas sous le menu fixe */
+
+.l-canvas {
+
+width: 100%;
+
+padding: var(--space-md);
+
+padding-bottom: 120px !important; /* Marge de sécurité très large pour le menu */
+
+}
+
+
+
+/* 5. Les tiroirs latéraux s'empilent comme des blocs standards */
+
+.left-drawer, .right-drawer {
+
+width: 100%;
+
+height: auto;
+
+border-right: none;
+
+border-left: none;
+
+border-bottom: 1px solid var(--color-border);
+
+}
+
+}]
+
+C'est parfaitement compris. Le bloc de correction pour le scroll natif mobile présent dans le code est exactement ce qu'il faut : il "déverrouille" les conteneurs Flexbox en passant tout en display: block !important sur mobile, ce qui permet au navigateur de reprendre la main sur le défilement vertical, tout en fixant le menu en bas. C'est robuste.
+
+Concernant le bouton d'incrémentation, l'erreur esthétique venait du fait d'avoir forcé des dimensions minuscules (20px) en essayant d'y insérer les caractères [ + ]. Cela écrase le texte et détruit le design "Resolve/HUD".
+
+Voici comment corriger l'interface pour obtenir un bouton + parfaitement carré, centré et élégant, sans risquer de casser la grille.
+
+1. Mise à jour du style dans education.html
+Il faut modifier la classe .hud-btn dans la balise <style> de l'en-tête pour lui donner des dimensions fixes parfaites et une police plus grande.
+
+Remplacez le bloc <style> de votre fichier education.html par celui-ci :
+
+HTML
+<style>
+    /* Composants de Grille */
+    .grid-10 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+    .lexicon-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md); }
+    
+    /* Contrôles HUD */
+    .hud-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+    
+    /* Le fameux bouton corrigé */
+    .hud-btn { 
+        background: transparent; 
+        border: 1px solid var(--color-accent-cyan); 
+        color: var(--color-accent-cyan); 
+        width: 32px; 
+        height: 32px; 
+        border-radius: 4px; 
+        cursor: pointer; 
+        font-family: 'Fira Code', monospace;
+        font-size: 1.2rem; /* Taille du '+' augmentée */
+        font-weight: 600;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        transition: all 0.2s ease;
+    }
+    
+    /* Effet au survol et au clic (Mobile) */
+    .hud-btn:hover, .hud-btn:active { 
+        background: var(--color-accent-cyan); 
+        color: #000; 
+    }
+    
+    /* Badge de synchronisation */
+    .auto-save-badge {
+        border: 1px solid var(--color-accent-green);
+        color: var(--color-accent-green);
+        padding: 4px 12px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+    }
+</style>
+2. Nettoyage du code généré dans assets/js/education.js
+Puisque le bouton est maintenant géré proprement par le CSS, il faut retirer les styles forcés dans le JavaScript (style="width: 40px...") et remplacer le texte [ + ] par un simple + épuré.
+
+Remplacez uniquement les deux fonctions de rendu dans assets/js/education.js :
+
+JavaScript
+function renderExercises() {
+    const gridContainer = document.getElementById('exercise-grid');
+    if(!gridContainer) return;
+
+    gridContainer.innerHTML = ''; 
+    appState.exercises.forEach((exo, index) => {
+        gridContainer.innerHTML += `
+            <div class="card bg-surface border-standard radius-md p-sm flex-col justify-between">
+                <div>
+                    <h3 class="font-mono text-main mb-xs">0${exo.id}. ${exo.title}</h3>
+                    <p class="small-text text-muted mb-sm" style="min-height: 36px;">${exo.desc}</p>
+                </div>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-base mb-xs">
+                        <div class="progress-bar bg-${exo.color} radius-sm" style="width: ${exo.progress}%; height: 6px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls">
+                        <span class="small-text highlight-${exo.color} font-mono">${exo.progress}%</span>
+                        <button class="hud-btn" onclick="incrementProgress('exercise', ${index})">+</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+function renderLexicon() {
+    const lexiconContainer = document.getElementById('lexicon-grid');
+    if(!lexiconContainer) return;
+
+    lexiconContainer.innerHTML = '';
+    appState.lexicon.forEach((lex, index) => {
+        lexiconContainer.innerHTML += `
+            <div class="bg-base border-standard radius-sm p-sm flex-col justify-between">
+                <div>
+                    <span class="font-mono highlight-${lex.color}" style="font-size: 1.1rem;">"${lex.word}"</span>
+                    <p class="small-text text-muted m-0 mb-sm" style="min-height: 36px;">${lex.desc}</p>
+                </div>
+                <div>
+                    <div class="progress-bar-container radius-sm bg-surface mb-xs">
+                        <div class="progress-bar bg-${lex.color} radius-sm" style="width: ${lex.progress}%; height: 4px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <div class="hud-controls" style="margin-top: 4px;">
+                        <span class="small-text highlight-${lex.color} font-mono">${lex.progress}%</span>
+                        <button class="hud-btn" onclick="incrementProgress('lexicon', ${index})">+</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+
+
+Gemini est une IA et peut se tromper, y compris sur des personnes. Votre confidentialité et GeminiS'ouvre dans une nouvelle fenêtre
+
