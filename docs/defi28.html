@@ -12,35 +12,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
-        .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); margin-bottom: var(--space-lg); }
+        .kpi-grid { 
+            display: grid; 
+            grid-template-columns: 1fr; 
+            gap: var(--space-md); 
+            margin-bottom: var(--space-lg); 
+        }
+        
+        @media (min-width: 768px) {
+            .kpi-grid { grid-template-columns: repeat(3, 1fr); } 
+        }
+
         .kpi-box { text-align: center; }
         .kpi-value { font-size: 2rem; font-weight: 700; margin: 0.5rem 0; }
+        
+        .chat-window { 
+            height: 300px; 
+            overflow-y: auto; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 0.5rem; 
+            scrollbar-width: thin; 
+            scrollbar-color: var(--color-accent-cyan) var(--color-base); 
+        }
+        
+        @media (min-width: 768px) {
+            .chat-window { height: 400px; }
+        }
+
+        .chat-msg { padding: 0.75rem; border-radius: var(--radius-sm); max-width: 90%; word-wrap: break-word; line-height: 1.4; }
+        .msg-user { background: var(--color-surface-hover); align-self: flex-end; border-right: 2px solid var(--color-accent-cyan); }
+        .msg-agi { background: var(--color-base); align-self: flex-start; border-left: 2px solid var(--color-accent-orange); }
+        .msg-system { text-align: center; font-size: 0.8rem; font-style: italic; align-self: center; width: 100%; margin: 0.5rem 0; }
+        
+        .chat-controls { display: flex; flex-direction: column; gap: var(--space-sm); }
+        @media (min-width: 768px) {
+            .chat-controls { flex-direction: row; }
+        }
+
+        #chat-input:focus { outline: 1px solid var(--color-accent-cyan); }
+        .btn-send:hover { background: var(--color-surface-hover); color: var(--color-accent-cyan); }
+        
+        .blink { animation: blinker 1.5s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0.5; } }
     </style>
 </head>
 <body class="hud-theme-dark bg-base text-main font-ui">
     <div class="app-container">
         
         <header class="hud-header bg-surface border-bottom p-md">
-<div class="logo-zone flex-row gap-sm">
-    <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
-    <div>
-        <h1><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
-    </div>
-</div>
+            <div class="logo-zone flex-row gap-sm align-center">
+                <img src="assets/img/icon.webp" alt="Logo Hub Aky & Rakai" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--color-accent-cyan);">
+                <div>
+                    <h1 style="font-size: 1.2rem; margin:0;"><span class="highlight-cyan">AKY</span> & <span class="highlight-orange">RAKAI</span></h1>
+                </div>
+            </div>
         </header>
 
-        <nav class="hud-nav border-bottom">
-            <ul class="flex-row">
+        <nav class="hud-nav border-bottom overflow-x-auto">
+            <ul class="flex-row gap-md p-sm" style="white-space: nowrap;">
                 <li><a href="index.html" class="text-muted">[01] HUB</a></li>
                 <li><a href="histoire.html" class="text-muted">[02] HISTOIRE</a></li>
                 <li><a href="education.html" class="text-muted">[03] ÉDUCATION</a></li>
-                <li><a href="galerie.html" class="active highlight-cyan">[04] GALERIE</a></li>
-                <li><a href="defi28.html" class="text-muted">[05] DÉFI 28J</a></li>
+                <li><a href="galerie.html" class="text-muted">[04] GALERIE</a></li>
+                <li><a href="defi28.html" class="active highlight-green font-bold">[05] DÉFI 28J</a></li>
             </ul>
         </nav>
 
-        <div class="workspace flex-row">
-            
+        <div class="workspace">
             <main class="l-canvas p-xl" style="width:100%;">
                 <header class="mb-lg">
                     <h2 class="highlight-green font-mono">CHALLENGE CVNU : AUTONOMIE RUP</h2>
@@ -49,95 +88,185 @@
 
                 <div class="kpi-grid">
                     <div class="card bg-surface border-standard radius-md p-md kpi-box">
-                        <h3 class="font-mono text-muted">JOUR ACTUEL</h3>
-                        <div id="jour-actuel-kpi" class="kpi-value highlight-cyan font-mono">01 / 28</div>
-                        <p class="small-text text-muted">Cycle de synchronisation</p>
+                        <h3 class="font-mono text-muted text-sm">JOUR ACTUEL</h3>
+                        <div id="jour-actuel-kpi" class="kpi-value highlight-cyan font-mono">Calcul...</div>
+                        <p class="small-text text-muted">Cycle MVP 28j</p>
                     </div>
                     <div class="card bg-surface border-standard radius-md p-md kpi-box">
-                        <h3 class="font-mono text-muted">VALEUR GÉNÉRÉE (UTMi)</h3>
-                        <div id="valeur-utmi-kpi" class="kpi-value highlight-green font-mono">En calcul...</div>
-                        <p class="small-text text-muted">Objectif MVP : 7500</p>
+                        <h3 class="font-mono text-muted text-sm">VALEUR (UTMi)</h3>
+                        <div id="valeur-utmi-kpi" class="kpi-value highlight-green font-mono">0.00 Ꞓ</div>
+                        <p class="small-text text-muted">Objectif : 7500</p>
                     </div>
                     <div class="card bg-surface border-standard radius-md p-md kpi-box">
-                        <h3 class="font-mono text-muted">TAXE AI (Circulaire)</h3>
-                        <div id="tax-ai-kpi" class="kpi-value highlight-orange font-mono">En calcul...</div>
-                        <p class="small-text text-muted">Redistribué au fonds RUP</p>
+                        <h3 class="font-mono text-muted text-sm">TAXE AI</h3>
+                        <div id="tax-ai-kpi" class="kpi-value highlight-orange font-mono">0.00 €</div>
+                        <p class="small-text text-muted">Fonds RUP Circulaire</p>
                     </div>
                 </div>
 
+                <!-- SECTION : TERMINAL AGI & CHAT -->
                 <section class="dashboard-panel bg-surface border-standard radius-md p-md">
-                    <h3 class="highlight-cyan font-mono mb-md">LIVRABLES DU JOUR</h3>
-                    <ul style="list-style: none; padding: 0;" class="flex-col gap-sm">
-                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <span class="font-mono">1. Paramétrage des générateurs d'images (/meta_style)</span>
-                            <span class="highlight-green font-mono">[ DONE ]</span>
-                        </li>
-                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <span class="font-mono">2. Intégration du module d'éducation canine</span>
-                            <span class="highlight-green font-mono">[ DONE ]</span>
-                        </li>
-                        <li class="bg-base border-standard radius-sm p-sm flex-row justify-between">
-                            <span class="font-mono">3. Chargement des moteurs économiques Core</span>
-                            <span class="highlight-green font-mono">[ DONE ]</span>
-                        </li>
-                    </ul>
+                    <div class="flex-row justify-between align-center mb-md flex-wrap gap-sm">
+                        <h3 class="highlight-orange font-mono">TERMINAL OMNISCIENT</h3>
+                        <span class="small-text text-muted font-mono bg-base p-xs radius-sm border-standard">PORT: 3145 | ENV: ZSH / AGI</span>
+                    </div>
+                    
+                    <div class="chat-window bg-base border-standard radius-sm p-sm mb-md" id="chat-output">
+                        <div class="msg-system text-muted font-mono">[SYSTÈME] Pont bidirectionnel actif. <br>Tapez une commande (/) ou discutez en langage naturel.</div>
+                    </div>
+                    
+                    <div class="chat-controls">
+                        <input type="text" id="chat-input" class="bg-base text-main border-standard radius-sm p-sm font-mono" style="flex-grow: 1;" placeholder="Ex: Bonjour ! ou /ls ou /cvnu...">
+                        <button id="chat-send" class="btn btn-send border-standard bg-surface highlight-cyan font-mono p-sm cursor-pointer transition-fast">ENVOYER</button>
+                    </div>
                 </section>
+
             </main>
         </div>
     </div>
 
+    <!-- Moteurs Economiques & Système -->
     <script src="core/utms_calculator.js"></script>
     <script src="core/circular_tax_engine.js"></script>
     <script src="core/rup_manager.js"></script>
+    <script src="core/CORE_SYSTEM_CVNU.js"></script>
     
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            console.log("✅ [DEFI] Moteurs Core chargés et prêts.");
+            console.log("✅ [DEFI] Interface et Moteurs initialisés.");
             
-            // Vérification de la présence du calculateur UTMi
-            if (typeof window.utmiCalculator !== 'undefined') {
-                console.log("⚙️ Moteur UTMi actif. Coefficients :", window.utmiCalculator.COEFFICIENTS);
-                
-                // Simulation immédiate d'une interaction d'éducation pour tester le flux
-                const interactionSimulation = {
-                    promptTokens: 150,
-                    responseTokens: 300,
-                    processingTime: 1.2,
-                    topic: "education_canine", // Déclenche un bonus thématique potentiel
-                    cvnuLevel: 1, 
-                    model: "llama-3.1-8b-instant"
-                };
+            // 1. Initialisation KPI Date
+            const startChallengeDate = new Date("2026-07-14T00:00:00"); 
+            const now = new Date();
+            const diffDays = Math.max(1, Math.ceil((now - startChallengeDate) / (1000 * 60 * 60 * 24)));
+            document.getElementById('jour-actuel-kpi').innerText = `${diffDays} / 28`;
+
+            let totalUtmiSession = 0;
+            let totalTaxeSession = 0;
+
+            // 2. Éléments du DOM
+            const chatInput = document.getElementById('chat-input');
+            const chatOutput = document.getElementById('chat-output');
+            const btnSend = document.getElementById('chat-send');
+
+            const addMessage = (text, sender) => {
+                const msgDiv = document.createElement('div');
+                msgDiv.classList.add('chat-msg', 'font-mono', `msg-${sender}`);
+                // Remplacement des sauts de ligne réels par des <br> pour un affichage HTML propre
+                msgDiv.innerHTML = text.replace(/\n/g, '<br>'); 
+                chatOutput.appendChild(msgDiv);
+                chatOutput.scrollTop = chatOutput.scrollHeight;
+            };
+
+            const processInteraction = async (userText) => {
+                if (!userText.trim()) return;
+
+                // Affichage input utilisateur
+                addMessage(userText.startsWith('/') ? `<strong>$</strong> ${userText}` : `<strong>&gt;</strong> ${userText}`, 'user');
+                chatInput.value = '';
+
+                // Loader visuel
+                const loadingId = 'loading-' + Date.now();
+                addMessage(`<span id="${loadingId}" class="text-muted blink">Analyse en cours...</span>`, 'system');
+
+                const startTime = performance.now();
 
                 try {
-                    // Calcul via le moteur racine
-                    const result = window.utmiCalculator.calculateUtmi(interactionSimulation, {});
-                    console.log(`[CVNU] Valeur générée simulée : ${result.utmi} UTMi`);
+                    let agiResponse = "";
+
+                    // AIGUILLAGE 1 : COMMANDES (Commence par "/")
+                    if (userText.startsWith('/')) {
+                        const commandName = userText.split(' ')[0]; 
+                        const systemCommand = userText.substring(1).trim(); 
+                        
+                        // Liste exhaustive des commandes du vrai noyau CVNU
+                        const coreCommands = [
+                            '/cvnu', '/start', '/rib', '/card', '/howto', '/prompt', 
+                            '/rup', '/missions', '/perimeter', '/map', '/move', '/save', 
+                            '/load', '/skills', '/audit', '/tva', '/ttf', '/keygen', 
+                            '/ebics', '/push_sepa', '/dev', '/stats', '/learn', '/test', 
+                            '/bp', '/defi_28', '/help', '/cal', '/gem', '/city'
+                        ];
+
+                        // ROUTAGE CORRIGÉ : On cible window.system.onCommandReceive
+                        if (coreCommands.includes(commandName) && typeof window.system !== 'undefined') {
+                            // Exécution par le VRAI Noyau CVNU
+                            // Promise.resolve permet d'attendre proprement si la commande est asynchrone
+                            agiResponse = await Promise.resolve(window.system.onCommandReceive(userText));
+                        } else {
+                            // Exécution Shell/ZSH via Backend (fallback pour les commandes terminal réelles comme ls, pwd)
+                            const response = await fetch('http://localhost:3145/api/terminal-agi', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ command: systemCommand })
+                            });
+                            
+                            if (!response.ok) throw new Error("Le serveur Node.js (Port 3145) est injoignable.");
+                            const data = await response.json();
+                            agiResponse = data.ai_interpretation;
+                        }
+                    } 
+                    // AIGUILLAGE 2 : CONVERSATION NATURELLE (Sans "/")
+                    else {
+                        const response = await fetch('http://localhost:3145/api/chat-agi', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ message: userText })
+                        });
+                        
+                        if (!response.ok) throw new Error("Le module IA conversationnel est injoignable.");
+                        const data = await response.json();
+                        agiResponse = data.response;
+                    }
+
+                    const processingTime = (performance.now() - startTime) / 1000;
+
+                    // Nettoyage loader
+                    const elLoading = document.getElementById(loadingId);
+                    if (elLoading) elLoading.remove();
                     
-                    // Mise à jour visuelle du KPi Valeur Générée
-                    const kpiUtmi = document.getElementById('valeur-utmi-kpi');
-                    if (kpiUtmi) {
-                        kpiUtmi.innerText = result.utmi.toFixed(2) + " Ꞓ";
+                    // Affichage Réponse (avec formatage HTML respecté)
+                    addMessage(agiResponse || `<span class="text-muted">[Pas de retour textuel du noyau]</span>`, 'agi');
+
+                    // CORRECTION DU CALCULATEUR UTMI (Structure Exacte Attendue)
+                    if (typeof window.utmiCalculator !== 'undefined') {
+                        const result = window.utmiCalculator.calculateUtmi({
+                            // Type strict reconnu par utms_calculator.js
+                            type: userText.startsWith('/') ? "system_process" : "prompt", 
+                            data: {
+                                text: userText,
+                                wordCount: userText.split(' ').length,
+                                inputTokens: userText.length,
+                                outputTokens: (agiResponse || "").length,
+                                modelId: "llama-3.1-8b-instant"
+                            }
+                        }, { 
+                            userCvnuValue: 1, 
+                            economicContext: { currency: 'EUR' } 
+                        });
+                        
+                        totalUtmiSession += result.utmi;
+                        totalTaxeSession += (result.utmi * 0.068);
+
+                        document.getElementById('valeur-utmi-kpi').innerText = totalUtmiSession.toFixed(2) + " Ꞓ";
+                        document.getElementById('tax-ai-kpi').innerText = totalTaxeSession.toFixed(2) + " €";
+                        
+                        // Optionnel : Désactiver l'affichage systématique de la valorisation si cela surcharge le terminal
+                        // addMessage(`[SYSTÈME] Valorisation générée : <span class="highlight-green">+${result.utmi.toFixed(2)} UTMi</span>.`, 'system');
                     }
 
-                    // Calcul et mise à jour de la Taxe IA (Ex: 5% ou 6.8% selon configuration)
-                    const kpiTaxe = document.getElementById('tax-ai-kpi');
-                    if (kpiTaxe) {
-                        // Utilisation du taux config standard à 6.8%
-                        const taxe = result.utmi * 0.068; 
-                        kpiTaxe.innerText = taxe.toFixed(2) + " €";
-                    }
                 } catch (error) {
-                    console.error("⚠️ [CVNU] Erreur lors du calcul UTMi :", error);
+                    const elLoading = document.getElementById(loadingId);
+                    if (elLoading) elLoading.remove();
+                    addMessage(`<span class="highlight-orange">[ERREUR] ${error.message}</span>`, 'system');
                 }
-            } else {
-                console.warn("⚠️ [DEFI] utms_calculator.js n'a pas pu être chargé. Vérifiez le chemin 'core/'.");
-            }
-            const startChallengeDate = new Date("2026-07-14"); // Date de début de votre cycle
-const now = new Date();
-const diffTime = Math.abs(now - startChallengeDate);
-const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+            };
 
-document.getElementById('jour-actuel-kpi').innerText = `${diffDays} / 28`;
+            // Events Listeners
+            btnSend.addEventListener('click', () => processInteraction(chatInput.value));
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') processInteraction(chatInput.value);
+            });
         });
     </script>
 </body>

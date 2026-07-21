@@ -5789,7 +5789,23 @@ if (typeof window !== 'undefined') {
         }, 100);
     }
 }
-
+// À ajouter à la fin de CORE_SYSTEM_CVNU.js
+if (typeof window !== 'undefined') {
+    window.CORE_SYSTEM_CVNU = {
+        // Expose ici la fonction qui doit gérer les commandes commençant par "/"
+        executeCommand: async function(commandText) {
+            console.log(`[CORE] Commande interceptée : ${commandText}`);
+            // Exemple de traitement basique
+            if (commandText === "/cal") {
+                return `<span class="highlight-cyan">Planification système récupérée depuis l'API Google Calendar... (Simulation)</span>`;
+            }
+            if (commandText === "/ls") {
+                return `<span class="highlight-green">Lecture des clusters de données CVNU... (Simulation)</span>`;
+            }
+            return `<span class="highlight-orange">Commande CVNU non reconnue par le noyau local.</span>`;
+        }
+    };
+}
 // ============================================
 // FIN DU FICHIER
 // ============================================
