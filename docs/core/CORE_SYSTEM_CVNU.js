@@ -997,7 +997,7 @@ const system = {
      */
     wrapASCII(title, content) {
     const b = KERNEL.ASCII_DICT.TENSOR.BORDERS.DOUBLE;
-    const MAX_WIDTH = 100; 
+    const MAX_WIDTH = 70; 
     let lines = [];
 
     let rawLines = (typeof content === 'string') ? content.split('\n') : [];

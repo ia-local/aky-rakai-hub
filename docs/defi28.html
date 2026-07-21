@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
+        /* Grille KPI modulaire */
         .kpi-grid { 
             display: grid; 
             grid-template-columns: 1fr; 
@@ -26,32 +27,90 @@
         .kpi-box { text-align: center; }
         .kpi-value { font-size: 2rem; font-weight: 700; margin: 0.5rem 0; }
         
+        /* Fenêtre Terminal : Structure propre et isolée avec scroll vertical interne */
         .chat-window { 
-            height: 300px; 
+            width: 100%;
+            height: 500px; 
             overflow-y: auto; 
+            overflow-x: auto; /* Permet de scroller horizontalement si le tableau ASCII est large */
             display: flex; 
             flex-direction: column; 
-            gap: 0.5rem; 
+            gap: var(--space-sm); 
+            padding: var(--space-md);
+            box-sizing: border-box;
+            background-color: var(--color-bg-base);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            
             scrollbar-width: thin; 
-            scrollbar-color: var(--color-accent-cyan) var(--color-base); 
-        }
-        
-        @media (min-width: 768px) {
-            .chat-window { height: 400px; }
+            scrollbar-color: var(--color-accent-cyan) var(--color-bg-base); 
         }
 
-        .chat-msg { padding: 0.75rem; border-radius: var(--radius-sm); max-width: 90%; word-wrap: break-word; line-height: 1.4; }
-        .msg-user { background: var(--color-surface-hover); align-self: flex-end; border-right: 2px solid var(--color-accent-cyan); }
-        .msg-agi { background: var(--color-base); align-self: flex-start; border-left: 2px solid var(--color-accent-orange); }
-        .msg-system { text-align: center; font-size: 0.8rem; font-style: italic; align-self: center; width: 100%; margin: 0.5rem 0; }
+        /* Scrollbar Webkit personnalisée */
+        .chat-window::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .chat-window::-webkit-scrollbar-track {
+            background: var(--color-bg-base);
+        }
+        .chat-window::-webkit-scrollbar-thumb {
+            background: var(--color-border);
+            border-radius: var(--radius-sm);
+        }
+        .chat-window::-webkit-scrollbar-thumb:hover {
+            background: var(--color-accent-cyan);
+        }
         
-        .chat-controls { display: flex; flex-direction: column; gap: var(--space-sm); }
+        /* Lignes de messages modulaires */
+        .chat-msg { 
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 1.4; 
+        }
+        
+        .msg-user { 
+            background: var(--color-bg-surface); 
+            padding: var(--space-sm);
+            border-radius: var(--radius-sm);
+            border-right: 2px solid var(--color-accent-cyan); 
+            max-width: 90%;
+            align-self: flex-end; 
+            font-family: var(--font-mono);
+        }
+        
+        .msg-agi { 
+            background: transparent; 
+            align-self: flex-start; 
+            font-family: var(--font-mono);
+            white-space: pre; /* Préserve fidèlement la mise en forme ASCII du noyau */
+            font-size: 0.85rem;
+            color: var(--color-text-main);
+            padding: var(--space-xs) 0;
+        }
+        
+        .msg-system { 
+            text-align: center; 
+            font-size: 0.8rem; 
+            font-style: italic; 
+            align-self: center; 
+            width: 100%; 
+            margin: var(--space-xs) 0; 
+            font-family: var(--font-mono);
+        }
+
+        .chat-controls { 
+            display: flex; 
+            flex-direction: column; 
+            gap: var(--space-sm); 
+            margin-top: var(--space-md);
+        }
         @media (min-width: 768px) {
             .chat-controls { flex-direction: row; }
         }
 
         #chat-input:focus { outline: 1px solid var(--color-accent-cyan); }
-        .btn-send:hover { background: var(--color-surface-hover); color: var(--color-accent-cyan); }
+        .btn-send:hover { background: var(--color-bg-surface); color: var(--color-accent-cyan); }
         
         .blink { animation: blinker 1.5s linear infinite; }
         @keyframes blinker { 50% { opacity: 0.5; } }
@@ -111,13 +170,13 @@
                         <span class="small-text text-muted font-mono bg-base p-xs radius-sm border-standard">PORT: 3145 | ENV: ZSH / AGI</span>
                     </div>
                     
-                    <div class="chat-window bg-base border-standard radius-sm p-sm mb-md" id="chat-output">
+                    <div class="chat-window mb-md" id="chat-output">
                         <div class="msg-system text-muted font-mono">[SYSTÈME] Pont bidirectionnel actif. <br>Tapez une commande (/) ou discutez en langage naturel.</div>
                     </div>
                     
                     <div class="chat-controls">
-                        <input type="text" id="chat-input" class="bg-base text-main border-standard radius-sm p-sm font-mono" style="flex-grow: 1;" placeholder="Ex: Bonjour ! ou /ls ou /cvnu...">
-                        <button id="chat-send" class="btn btn-send border-standard bg-surface highlight-cyan font-mono p-sm cursor-pointer transition-fast">ENVOYER</button>
+                        <input type="text" id="chat-input" class="bg-base text-main border-standard radius-sm p-sm font-mono w-full" placeholder="Ex: Bonjour ! ou /ls ou /cvnu...">
+                        <button id="chat-send" class="btn c-btn c-btn-outline highlight-cyan font-mono p-sm cursor-pointer">ENVOYER</button>
                     </div>
                 </section>
 
@@ -135,7 +194,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             console.log("✅ [DEFI] Interface et Moteurs initialisés.");
             
-            // 1. Initialisation KPI Date
             const startChallengeDate = new Date("2026-07-14T00:00:00"); 
             const now = new Date();
             const diffDays = Math.max(1, Math.ceil((now - startChallengeDate) / (1000 * 60 * 60 * 24)));
@@ -144,28 +202,33 @@
             let totalUtmiSession = 0;
             let totalTaxeSession = 0;
 
-            // 2. Éléments du DOM
             const chatInput = document.getElementById('chat-input');
             const chatOutput = document.getElementById('chat-output');
             const btnSend = document.getElementById('chat-send');
 
             const addMessage = (text, sender) => {
                 const msgDiv = document.createElement('div');
-                msgDiv.classList.add('chat-msg', 'font-mono', `msg-${sender}`);
-                // Remplacement des sauts de ligne réels par des <br> pour un affichage HTML propre
-                msgDiv.innerHTML = text.replace(/\n/g, '<br>'); 
+                msgDiv.classList.add('chat-msg', `msg-${sender}`);
+
+                // Utilisation directe du HTML/Texte généré par le noyau
+                msgDiv.innerHTML = text; 
                 chatOutput.appendChild(msgDiv);
-                chatOutput.scrollTop = chatOutput.scrollHeight;
+
+                // Défilement automatique propre vers le bas
+                setTimeout(() => {
+                    chatOutput.scrollTo({
+                        top: chatOutput.scrollHeight,
+                        behavior: 'smooth' 
+                    });
+                }, 50);
             };
 
             const processInteraction = async (userText) => {
                 if (!userText.trim()) return;
 
-                // Affichage input utilisateur
                 addMessage(userText.startsWith('/') ? `<strong>$</strong> ${userText}` : `<strong>&gt;</strong> ${userText}`, 'user');
                 chatInput.value = '';
 
-                // Loader visuel
                 const loadingId = 'loading-' + Date.now();
                 addMessage(`<span id="${loadingId}" class="text-muted blink">Analyse en cours...</span>`, 'system');
 
@@ -174,12 +237,10 @@
                 try {
                     let agiResponse = "";
 
-                    // AIGUILLAGE 1 : COMMANDES (Commence par "/")
                     if (userText.startsWith('/')) {
                         const commandName = userText.split(' ')[0]; 
                         const systemCommand = userText.substring(1).trim(); 
                         
-                        // Liste exhaustive des commandes du vrai noyau CVNU
                         const coreCommands = [
                             '/cvnu', '/start', '/rib', '/card', '/howto', '/prompt', 
                             '/rup', '/missions', '/perimeter', '/map', '/move', '/save', 
@@ -188,13 +249,9 @@
                             '/bp', '/defi_28', '/help', '/cal', '/gem', '/city'
                         ];
 
-                        // ROUTAGE CORRIGÉ : On cible window.system.onCommandReceive
                         if (coreCommands.includes(commandName) && typeof window.system !== 'undefined') {
-                            // Exécution par le VRAI Noyau CVNU
-                            // Promise.resolve permet d'attendre proprement si la commande est asynchrone
                             agiResponse = await Promise.resolve(window.system.onCommandReceive(userText));
                         } else {
-                            // Exécution Shell/ZSH via Backend (fallback pour les commandes terminal réelles comme ls, pwd)
                             const response = await fetch('http://localhost:3145/api/terminal-agi', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
@@ -205,9 +262,7 @@
                             const data = await response.json();
                             agiResponse = data.ai_interpretation;
                         }
-                    } 
-                    // AIGUILLAGE 2 : CONVERSATION NATURELLE (Sans "/")
-                    else {
+                    } else {
                         const response = await fetch('http://localhost:3145/api/chat-agi', {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
@@ -221,17 +276,13 @@
 
                     const processingTime = (performance.now() - startTime) / 1000;
 
-                    // Nettoyage loader
                     const elLoading = document.getElementById(loadingId);
                     if (elLoading) elLoading.remove();
                     
-                    // Affichage Réponse (avec formatage HTML respecté)
                     addMessage(agiResponse || `<span class="text-muted">[Pas de retour textuel du noyau]</span>`, 'agi');
 
-                    // CORRECTION DU CALCULATEUR UTMI (Structure Exacte Attendue)
                     if (typeof window.utmiCalculator !== 'undefined') {
                         const result = window.utmiCalculator.calculateUtmi({
-                            // Type strict reconnu par utms_calculator.js
                             type: userText.startsWith('/') ? "system_process" : "prompt", 
                             data: {
                                 text: userText,
@@ -250,19 +301,17 @@
 
                         document.getElementById('valeur-utmi-kpi').innerText = totalUtmiSession.toFixed(2) + " Ꞓ";
                         document.getElementById('tax-ai-kpi').innerText = totalTaxeSession.toFixed(2) + " €";
-                        
-                        // Optionnel : Désactiver l'affichage systématique de la valorisation si cela surcharge le terminal
-                        // addMessage(`[SYSTÈME] Valorisation générée : <span class="highlight-green">+${result.utmi.toFixed(2)} UTMi</span>.`, 'system');
                     }
 
                 } catch (error) {
                     const elLoading = document.getElementById(loadingId);
+                    if (elLoading) elLink = document.getElementById(loadingId);
                     if (elLoading) elLoading.remove();
                     addMessage(`<span class="highlight-orange">[ERREUR] ${error.message}</span>`, 'system');
                 }
             };
 
-            // Events Listeners
+            btnSend.addEventListener('click', () => processIdentifiers = () => processInteraction(chatInput.value));
             btnSend.addEventListener('click', () => processInteraction(chatInput.value));
             chatInput.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') processInteraction(chatInput.value);
